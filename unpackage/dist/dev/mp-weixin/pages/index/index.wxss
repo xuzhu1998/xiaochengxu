@@ -1,0 +1,187 @@
+
+page{
+	height: 100%;
+	background-image: linear-gradient(#472E23 2%, #242225 28%,#242225 70%);
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.main.data-v-57280228 {
+  text-size-adjust: 100% !important;
+  -webkit-text-size-adjust: 100% !important;
+  -moz-text-size-adjust: 100% !important;
+  width: 100%;
+  overflow-x: hidden;
+}
+.main .foothand.data-v-57280228 {
+  width: 90%;
+  background: linear-gradient(180deg, #FFA73E 0%, #FF752B 100%);
+  border-radius: 24rpx;
+  padding: 10rpx 24rpx;
+  margin: 0 auto;
+  box-sizing: border-box;
+  margin-top: 30rpx;
+  color: #fff;
+}
+.main .gztan.data-v-57280228 {
+  width: 650rpx;
+  background-color: #FFFFFF;
+  text-align: center;
+  padding: 70rpx 0;
+}
+.main .gztan .gztanimg.data-v-57280228 {
+  width: 350rpx;
+  height: 350rpx;
+  margin: 0 auto;
+}
+.main .gztan .gztanimg ._img.data-v-57280228 {
+  width: 350rpx;
+  height: 350rpx;
+}
+.main .gztan .gztantxt.data-v-57280228 {
+  margin-top: 30rpx;
+  font-size: 20rpx;
+}
+.main .money.data-v-57280228 {
+  width: 650rpx;
+  height: 176rpx;
+  background: #343136;
+  border-radius: 24rpx;
+  margin: 30rpx auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 90rpx;
+  box-sizing: border-box;
+}
+.main .money.guest-login.data-v-57280228 {
+  padding: 0 40rpx;
+  cursor: pointer;
+}
+.main .money.guest-login .guest-content.data-v-57280228 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.main .money.guest-login .guest-content .guest-icon.data-v-57280228 {
+  margin-right: 30rpx;
+}
+.main .money.guest-login .guest-content .guest-text.data-v-57280228 {
+  flex: 1;
+}
+.main .money.guest-login .guest-content .guest-text .guest-title.data-v-57280228 {
+  font-size: 32rpx;
+  color: #FFFFFF;
+  font-weight: 600;
+  margin-bottom: 8rpx;
+}
+.main .money.guest-login .guest-content .guest-text .guest-subtitle.data-v-57280228 {
+  font-size: 24rpx;
+  color: #999999;
+}
+.main .money.guest-login .guest-content .guest-arrow.data-v-57280228 {
+  font-size: 32rpx;
+  color: #999999;
+}
+.main .money .moneyone.data-v-57280228 {
+  text-align: center;
+}
+.main .money .moneyone .moneshang.data-v-57280228 {
+  font-size: 36rpx;
+  font-family: PingFangSC-Semibold, PingFang SC;
+  font-weight: 600;
+  color: #FFFFFF;
+  margin-bottom: 8rpx;
+}
+.main .money .moneyone .monexia.data-v-57280228 {
+  font-size: 26rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.main .money .monez.data-v-57280228 {
+  width: 2rpx;
+  height: 70rpx;
+  background: #fff;
+}
+.main .show .one.data-v-57280228 {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 50rpx;
+}
+.main .show .one .onetap.data-v-57280228 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30rpx;
+}
+.main .show .one .onetap .onetapmont.data-v-57280228 {
+  width: 300rpx;
+  height: 120rpx;
+  background: #FFDFCE;
+  border-radius: 24rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.main .show .one .onetap .onetapmont .onetapmonttxt.data-v-57280228 {
+  font-size: 28rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #242225;
+}
+.main .show .one .onetap .onetapmont image.data-v-57280228 {
+  margin-right: 24rpx;
+}
+.main .show .tap.data-v-57280228 {
+  width: 649rpx;
+  height: 300rpx;
+  border-radius: 16rpx;
+  margin: 30rpx auto;
+  margin-bottom: 0rpx;
+  padding-bottom: 150rpx;
+}
+.main .show .tap image.data-v-57280228 {
+  width: 649rpx;
+  height: 300rpx;
+  border-radius: 16rpx;
+}
+.main .show .tap1.data-v-57280228 {
+  width: 649rpx;
+  height: 300rpx;
+  border-radius: 16rpx;
+  margin: 30rpx auto;
+  margin-bottom: 0rpx;
+  padding-bottom: 150rpx;
+}
+.main .show .tap1 image.data-v-57280228 {
+  width: 649rpx;
+  height: 300rpx;
+  border-radius: 16rpx;
+}
+

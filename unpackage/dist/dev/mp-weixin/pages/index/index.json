@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+    "tou_hand": "/components/tou_hand/tou_hand",
+    "tab-bar": "/components/tabBar/tabBar"
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/smcharging/smcharging",
+    "pages/chargingzhong/chargingzhong",
+    "pages/webview/webview",
+    "pages/login/login"
+  ],
+  "subPackages": [
+    {
+      "root": "pageone",
+      "pages": [
+        "account_recharge/account_recharge",
+        "chargingzhong_detail/chargingzhong_detail",
+        "ad_details/ad_details",
+        "ad_list/ad_list",
+        "door_prohibit/door_prohibit",
+        "electric_card_management/electric_card_management",
+        "monthlystop/monthlystop",
+        "nearby_charging/nearby_charging",
+        "nearest_charging/nearest_charging",
+        "Operation_guide/Operation_guide",
+        "Operation_guide_details/Operation_guide_details",
+        "poweron/poweron",
+        "protocol_specification/protocol_specification",
+        "qr_code/qr_code",
+        "remote_charging/remote_charging",
+        "trouble_shooting/trouble_shooting",
+        "unsettled_order/unsettled_order",
+        "unsettled_order_detail/unsettled_order_detail",
+        "using_help/using_help",
+        "using_help_detail/using_help_detail",
+        "using_help_list/using_help_list"
+      ]
+    },
+    {
+      "root": "pagetwo",
+      "pages": [
+        "about_us/about_us",
+        "apply_refund/apply_refund",
+        "appointment_installation/appointment_installation",
+        "contact_kf/contact_kf",
+        "feedback/feedback",
+        "guard_record/guard_record",
+        "more/more",
+        "my_guarantee/my_guarantee",
+        "my_message/my_message",
+        "notice_notice/notice_notice",
+        "notice_notice_detail/notice_notice_detail",
+        "personal_data/personal_data",
+        "recharge_record/recharge_record",
+        "records_consumption/records_consumption",
+        "refund/refund",
+        "refund_details/refund_details",
+        "guard_vip/guard_vip",
+        "guard_record_vip/guard_record_vip"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#bdbdbd",
+    "selectedColor": "#007aff",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabBarimg/home.png",
+        "selectedIconPath": "static/tabBarimg/home1.png",
+        "text": "个人中心"
+      },
+      {
+        "pagePath": "pages/smcharging/smcharging",
+        "iconPath": "static/tabBarimg/hm.png",
+        "selectedIconPath": "static/tabBarimg/hm1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/chargingzhong/chargingzhong",
+        "iconPath": "static/tabBarimg/hmz.png",
+        "selectedIconPath": "static/tabBarimg/hmz1.png",
+        "text": "充电中"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "位置信息效果展示"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation"
+  ],
+  "usingComponents": {
+    "van-button": "/wxcomponents/vant/button/index",
+    "van-cell": "/wxcomponents/vant/cell/index",
+    "van-cell-group": "/wxcomponents/vant/cell-group/index",
+    "van-dialog": "/wxcomponents/vant/dialog/index",
+    "van-popup": "/wxcomponents/vant/popup/index",
+    "van-picker": "/wxcomponents/vant/picker/index",
+    "van-toast": "/wxcomponents/vant/toast/index",
+    "van-tab": "/wxcomponents/vant/tab/index",
+    "van-tabs": "/wxcomponents/vant/tabs/index",
+    "van-collapse": "/wxcomponents/vant/collapse/index",
+    "van-collapse-item": "/wxcomponents/vant/collapse-item/index",
+    "van-checkbox": "/wxcomponents/vant/checkbox/index",
+    "van-checkbox-group": "/wxcomponents/vant/checkbox-group/index",
+    "van-switch": "/wxcomponents/vant/switch/index",
+    "van-radio": "/wxcomponents/vant/radio/index",
+    "van-radio-group": "/wxcomponents/vant/radio-group/index",
+    "van-stepper": "/wxcomponents/vant/stepper/index",
+    "van-field": "/wxcomponents/vant/field/index",
+    "van-notice-bar": "/wxcomponents/vant/notice-bar/index",
+    "van-datetime-picker": "/wxcomponents/vant/datetime-picker/index",
+    "van-config-provider": "/wxcomponents/vant/config-provider/index",
+    "van-icon": "/wxcomponents/vant/icon/index",
+    "van-image": "/wxcomponents/vant/image/index",
+    "van-row": "/wxcomponents/vant/row/index",
+    "van-col": "/wxcomponents/vant/col/index",
+    "van-transition": "/wxcomponents/vant/transition/index",
+    "van-calendar": "/wxcomponents/vant/calendar/index",
+    "van-rate": "/wxcomponents/vant/rate/index",
+    "van-search": "/wxcomponents/vant/search/index",
+    "van-uploader": "/wxcomponents/vant/uploader/index",
+    "van-action-sheet": "/wxcomponents/vant/action-sheet/index",
+    "van-loading": "/wxcomponents/vant/loading/index",
+    "van-notify": "/wxcomponents/vant/notify/index",
+    "van-overlay": "/wxcomponents/vant/overlay/index",
+    "van-share-sheet": "/wxcomponents/vant/share-sheet/index",
+    "van-swipe-cell": "/wxcomponents/vant/swipe-cell/index",
+    "van-circle": "/wxcomponents/vant/circle/index",
+    "van-count-down": "/wxcomponents/vant/count-down/index",
+    "van-divider": "/wxcomponents/vant/divider/index",
+    "van-empty": "/wxcomponents/vant/empty/index",
+    "van-progress": "/wxcomponents/vant/progress/index",
+    "van-skeleton": "/wxcomponents/vant/skeleton/index",
+    "van-steps": "/wxcomponents/vant/steps/index",
+    "van-sticky": "/wxcomponents/vant/sticky/index",
+    "van-tag": "/wxcomponents/vant/tag/index",
+    "van-grid": "/wxcomponents/vant/grid/index",
+    "van-grid-item": "/wxcomponents/vant/grid-item/index",
+    "van-index-bar": "/wxcomponents/vant/index-bar/index",
+    "van-index-anchor": "/wxcomponents/vant/index-anchor/index",
+    "van-nav-bar": "/wxcomponents/vant/nav-bar/index",
+    "van-sidebar": "/wxcomponents/vant/sidebar/index",
+    "van-sidebar-item": "/wxcomponents/vant/sidebar-item/index",
+    "van-tabbar": "/wxcomponents/vant/tabbar/index",
+    "van-tabbar-item": "/wxcomponents/vant/tabbar-item/index",
+    "van-tree-select": "/wxcomponents/vant/tree-select/index",
+    "van-card": "/wxcomponents/vant/card/index",
+    "van-submit-bar": "/wxcomponents/vant/submit-bar/index",
+    "van-goods-action": "/wxcomponents/vant/goods-action/index",
+    "van-goods-action-icon": "/wxcomponents/vant/goods-action-icon/index",
+    "van-goods-action-button": "/wxcomponents/vant/goods-action-button/index"
+  }
+}

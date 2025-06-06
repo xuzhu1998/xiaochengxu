@@ -1,0 +1,412 @@
+
+page{
+	height: 100%;
+	background-color:#242225;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.main.data-v-473befff {
+  width: 100%;
+  overflow-x: hidden;
+}
+.main .show.data-v-473befff {
+  width: 100%;
+  margin-top: 85rpx;
+  margin-bottom: 41rpx;
+  box-sizing: border-box;
+  padding: 0 50rpx;
+}
+.main .show .stwo.data-v-473befff {
+  width: 100%;
+  text-align: center;
+  margin-top: 55rpx;
+  background: #343136;
+  border-radius: 24rpx;
+  padding: 40rpx 0;
+}
+.main .show .stwo .stwoshang.data-v-473befff {
+  font-size: 30rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main .show .stwo .stwoshang image.data-v-473befff {
+  width: 36rpx;
+  height: 34rpx;
+  margin-right: 10rpx;
+}
+.main .show .stwo .stwoxia.data-v-473befff {
+  font-size: 44rpx;
+  font-family: PingFangSC-Semibold, PingFang SC;
+  font-weight: 600;
+  color: #FFFFFF;
+  margin-top: 20rpx;
+}
+.main .show .sthree.data-v-473befff {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80rpx;
+}
+.main .show .sthree .sthreetxt.data-v-473befff {
+  width: 300rpx;
+  height: 80rpx;
+  background: linear-gradient(180deg, #FFA73E 0%, #FF752B 100%);
+  border-radius: 24rpx;
+  font-size: 28rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 80rpx;
+}
+.main .show .sthree .sthreetap.data-v-473befff {
+  width: 1rpx;
+  height: 28rpx;
+  background-color: #313131;
+  margin: 0 15rpx;
+}
+.main .show .sfour.data-v-473befff {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20rpx;
+  padding: 10rpx 70rpx;
+  box-sizing: border-box;
+}
+.main .show .sfour .sfourtxt.data-v-473befff {
+  font-size: 26rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #D0D0D0;
+}
+.main .show .sfour .sfourtap.data-v-473befff {
+  width: 1rpx;
+  height: 28rpx;
+  background-color: #313131;
+  margin: 0 15rpx;
+}
+.main1.data-v-473befff {
+  width: 100%;
+  overflow-x: hidden;
+}
+.main1 .hand.data-v-473befff {
+  width: 100%;
+  background-color: #4B98ED;
+  height: 62rpx;
+  font-size: 30rpx;
+  font-family: PingFang SC Bold, PingFang SC Bold-Bold;
+  font-weight: 700;
+  text-align: center;
+  line-height: 62rpx;
+  color: #ffffff;
+  position: relative;
+}
+.main1 .hand image.data-v-473befff {
+  width: 22rpx;
+  height: 39rpx;
+  position: absolute;
+  left: 31rpx;
+  top: 11rpx;
+}
+.main1 .kshow.data-v-473befff {
+  width: 686rpx;
+  margin: 0 auto;
+  margin-top: 51rpx;
+}
+.main1 .kshow .kone.data-v-473befff {
+  width: 100%;
+  display: flex;
+  padding: 26rpx;
+  box-sizing: border-box;
+  background-color: #343136;
+  border-radius: 24rpx;
+  margin-bottom: 26rpx;
+}
+.main1 .kshow .kone.data-v-473befff .van-radio__icon--checked {
+  background-color: #EC651C !important;
+  border-color: #EC651C !important;
+}
+.main1 .kshow .kone .koneleft.data-v-473befff {
+  font-size: 28rpx;
+  font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+  font-weight: 500;
+  color: #999999;
+}
+.main1 .kshow .kone .koneright .krshow.data-v-473befff {
+  display: flex;
+}
+.main1 .kshow .kone .koneright .krshow.data-v-473befff .van-radio {
+  margin-left: 62rpx;
+}
+.main1 .kshow .kone .koneright .krshow.data-v-473befff .van-radio__label {
+  font-size: 28rpx;
+  font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+  font-weight: 500;
+  color: #999999;
+  margin-left: 10rpx;
+}
+.main1 .kshow .ktwo.data-v-473befff {
+  width: 100%;
+  box-sizing: border-box;
+}
+.main1 .kshow .ktwo.data-v-473befff .van-cell:after {
+  border-bottom: 0rpx;
+  border-bottom-color: transparent;
+}
+.main1 .kshow .ktwo.data-v-473befff .van-cell__title {
+  font-size: 30rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #D0D0D0;
+}
+.main1 .kshow .ktwo.data-v-473befff .van-collapse-item {
+  background-color: #343136;
+  border-radius: 24rpx;
+}
+.main1 .kshow .ktwo.data-v-473befff .van-cell {
+  padding: 29rpx 36rpx;
+  background: #343136;
+  border-radius: 24rpx;
+}
+.main1 .kshow .ktwo.data-v-473befff .van-cell:not(:last-child)::after {
+  border-bottom: 0rpx;
+}
+.main1 .kshow .ktwo.data-v-473befff .van-radio__label {
+  font-size: 30rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #FFFFFF;
+  margin-left: 90rpx;
+}
+.main1 .kshow .ktwo.data-v-473befff .van-radio__icon {
+  margin-left: 80rpx;
+}
+.main1 .kshow .ktwo.data-v-473befff .van-collapse-item__content {
+  background-color: #343136;
+  border-radius: 24rpx;
+}
+.main1 .kshow .ktwo.data-v-473befff .van-hairline--top-bottom::after {
+  border-width: 0rpx;
+}
+.main1 .kshow .ktwo.data-v-473befff .van-radio {
+  height: 70rpx;
+  align-items: center;
+}
+.main1 .kshow .ktwo.data-v-473befff .van-collapse-item__wrapper {
+  margin-bottom: 10rpx;
+}
+.main1 .kshow .ktwo.data-v-473befff .van-cell:not(:last-child)::after {
+  border-bottom: 0rpx;
+}
+.main1 .kshow .ktwo.data-v-473befff .van-radio__icon--checked {
+  background-color: #EC651C;
+  border-color: #EC651C;
+}
+.main1 .kshow .kthree .kthreehand.data-v-473befff {
+  font-size: 28rpx;
+  font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+  font-weight: 500;
+  color: #999999;
+  margin-top: 33rpx;
+}
+.main1 .kshow .kthree .kthreehand .khtxttwo.data-v-473befff {
+  font-size: 24rpx;
+  color: #666666;
+}
+.main1 .kshow .kthree .kthreefoot.data-v-473befff {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 21rpx;
+}
+.main1 .kshow .kthree .kthreefoot.data-v-473befff .van-cell {
+  background-color: #F0F0F0;
+  height: 236rpx;
+  border-radius: 16rpx;
+}
+.main1 .kshow .kfour.data-v-473befff {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 35rpx;
+}
+.main1 .kshow .kfour .kfourtxt.data-v-473befff {
+  font-size: 28rpx;
+  font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+  font-weight: 500;
+  color: #333333;
+}
+.main1 .kshow .kfour .kfourtxt .kfourbud.data-v-473befff {
+  font-size: 24rpx;
+  color: #666666;
+}
+.main1 .kshow .kfour .add-img-box.data-v-473befff {
+  display: flex;
+  width: 750rpx;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.main1 .kshow .kfour .add-img-item.data-v-473befff {
+  width: 128rpx;
+  height: 128rpx;
+  border-radius: 16rpx;
+  position: relative;
+  padding: 9rpx 0;
+  margin-right: 20rpx;
+}
+.main1 .kshow .kfour .add-img-camera.data-v-473befff {
+  flex: 1;
+}
+.main1 .kshow .kfour .add-img.data-v-473befff {
+  width: 128rpx;
+  height: 128rpx;
+  border-radius: 16rpx;
+}
+.main1 .kshow .kfour .add-img-del.data-v-473befff {
+  position: absolute;
+  width: 40rpx;
+  height: 40rpx;
+  right: -14rpx;
+  top: -6rpx;
+  border-radius: 20rpx;
+}
+.main1 .kshow .kfour .address-time.data-v-473befff {
+  width: 484rpx;
+  height: 88rpx;
+  background-color: whitesmoke;
+  opacity: 1;
+  border-radius: 24rpx;
+  text-align: center;
+  font-size: 35rpx;
+  font-weight: 500;
+  color: #333333;
+}
+.main1 .kshow .kfour .line.data-v-473befff {
+  width: 750rpx;
+  height: 1px;
+  -webkit-transform: scaleY(0.3);
+          transform: scaleY(0.3);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.main1 .kshow .kbtn.data-v-473befff {
+  width: 686rpx;
+  height: 88rpx;
+  background: #EC651C;
+  border-radius: 16rpx;
+  font-size: 32rpx;
+  font-family: PingFang SC Bold, PingFang SC Bold-Bold;
+  font-weight: 700;
+  text-align: center;
+  line-height: 88rpx;
+  margin: 0 auto;
+  margin-top: 59rpx;
+  color: #ffffff;
+}
+.main1 .kshow .kbtxt.data-v-473befff {
+  color: #EC651C;
+  margin-top: 30rpx;
+  font-size: 27rpx;
+}
+.main1 .kshow .kbtxt1.data-v-473befff {
+  color: #999999;
+  margin-top: 30rpx;
+  font-size: 27rpx;
+}
+.footdibu.data-v-473befff {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.footdibu .fdbfive.data-v-473befff {
+  position: absolute;
+  top: 30rpx;
+  right: 30rpx;
+  width: 94rpx;
+  height: 46rpx;
+}
+.footdibu .fdbfive image.data-v-473befff {
+  width: 94rpx;
+  height: 46rpx;
+}
+.footdibu .fdbone.data-v-473befff {
+  position: absolute;
+  width: 260rpx;
+  height: 80rpx;
+  top: 802rpx;
+  left: 240rpx;
+  border-radius: 50rpx;
+  box-shadow: rgba(0, 0, 0, 0.6) 0 0 0 100vh;
+}
+.footdibu .fdbtwo.data-v-473befff {
+  position: absolute;
+  width: 52rpx;
+  height: 180rpx;
+  top: 911rpx;
+  left: 348rpx;
+}
+.footdibu .fdbtwo image.data-v-473befff {
+  width: 52rpx;
+  height: 180rpx;
+}
+.footdibu .fdbthree.data-v-473befff {
+  position: absolute;
+  width: 450rpx;
+  top: 1099rpx;
+  text-align: center;
+  left: 142rpx;
+  color: #FFFFFF;
+}
+.footdibu .fdbthree .fdbthreeshang.data-v-473befff {
+  font-size: 39rpx;
+  font-family: YouYuan;
+  font-weight: 700;
+}
+.footdibu .fdbthree .fdbthreezhong.data-v-473befff {
+  margin-top: 38rpx;
+  font-size: 21rpx;
+  font-family: YouYuan;
+  font-weight: 400;
+}
+.footdibu .fdbfour.data-v-473befff {
+  position: absolute;
+  top: 1203rpx;
+  left: 262rpx;
+  width: 198rpx;
+  height: 76rpx;
+}
+.footdibu .fdbfour image.data-v-473befff {
+  width: 198rpx;
+  height: 76rpx;
+}
+

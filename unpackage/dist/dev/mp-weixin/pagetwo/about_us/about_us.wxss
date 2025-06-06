@@ -1,0 +1,106 @@
+
+page{
+	height: 100%;
+	background-color:#242225;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.main.data-v-031dd242 {
+  width: 100%;
+  overflow-x: hidden;
+}
+.main .show.data-v-031dd242 {
+  width: 100%;
+}
+.main .show .shand.data-v-031dd242 {
+  width: 432rpx;
+  height: 129rpx;
+  margin: 90rpx auto;
+}
+.main .show .shand image.data-v-031dd242 {
+  width: 432rpx;
+  height: 129rpx;
+}
+.main .show .shand1.data-v-031dd242 {
+  width: 300rpx;
+  height: 300rpx;
+  margin: 90rpx auto;
+}
+.main .show .shand1 image.data-v-031dd242 {
+  width: 300rpx;
+  height: 300rpx;
+}
+.main .show .sone.data-v-031dd242 {
+  width: 686rpx;
+  margin: 0 auto;
+}
+.main .show .sone .btap.data-v-031dd242 {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  padding: 29rpx 36rpx;
+  margin-bottom: 21rpx;
+  align-items: center;
+  background: #343136;
+  border-radius: 24rpx;
+}
+.main .show .sone .btap .dbleft.data-v-031dd242 {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+.main .show .sone .btap .dbleft image.data-v-031dd242 {
+  width: 29rpx;
+  height: 37rpx;
+  margin-top: 9rpx;
+}
+.main .show .sone .btap .dbleft .dbtext.data-v-031dd242 {
+  box-sizing: border-box;
+  margin-left: 22rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+  font-weight: 500;
+  color: #fff;
+}
+.main .show .sone .btap .dbright.data-v-031dd242 {
+  box-sizing: border-box;
+  display: flex;
+}
+.main .show .sone .btap .dbright .dbphone.data-v-031dd242 {
+  font-size: 24rpx;
+  font-family: PingFang SC Heavy, PingFang SC Heavy-Heavy;
+  font-weight: 800;
+  color: #4b98ed;
+  margin-right: 28rpx;
+}
+.main .show .sone .btap .dbright image.data-v-031dd242 {
+  width: 19rpx;
+  height: 32rpx;
+}
+

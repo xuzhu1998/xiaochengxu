@@ -1,0 +1,1007 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+				// "navigationBarBackgroundColor": "#472E23", // 导航栏背景颜色
+				// "navigationBarTextStyle": "white" // 导航栏字体颜色
+		
+			}
+		},
+		{
+			"path": "pages/smcharging/smcharging",
+			"style": {
+				"navigationBarTitleText": "扫码充电"
+				
+		
+			}
+		},
+		{
+			"path": "pages/chargingzhong/chargingzhong",
+			"style": {
+				"navigationBarTitleText": "充电中"
+				
+			}
+		},
+		{
+			"path": "pages/webview/webview",
+			"style": {
+				"navigationBarTitleText": "广告",
+				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+				"navigationBarTextStyle": "white" // 导航栏字体颜色
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+		
+			}
+		}
+	],
+	"subPackages": [
+		{
+			"root": "pageone",
+			"pages": [
+				{
+					"path": "account_recharge/account_recharge",
+					"style": {
+						"navigationBarTitleText": "账户充值",
+						"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+						"navigationBarTextStyle": "white" // 导航栏字体颜色
+					}
+				},
+				{
+					"path": "chargingzhong_detail/chargingzhong_detail",
+					"style": {
+						"navigationBarTitleText": "充电中详情",
+						"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+						"navigationBarTextStyle": "white" // 导航栏字体颜色
+					}
+				
+				},
+				{
+					"path": "ad_details/ad_details",
+					"style": {
+						"navigationBarTitleText": "广告详情",
+						"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+						"navigationBarTextStyle": "white" // 导航栏字体颜色
+					}
+				},
+				{
+					"path": "ad_list/ad_list",
+					"style": {
+						"navigationBarTitleText": "广告",
+						"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+						"navigationBarTextStyle": "white" // 导航栏字体颜色
+					}
+				},
+				{
+					"path": "door_prohibit/door_prohibit",
+					"style": {
+						"navigationBarTitleText": "扫码开门",
+						"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+						"navigationBarTextStyle": "white" // 导航栏字体颜色
+					}
+				},
+				{
+					"path": "electric_card_management/electric_card_management",
+					"style": {
+						"navigationBarTitleText": "电卡管理",
+						"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+						"navigationBarTextStyle": "white" // 导航栏字体颜色
+					}
+				},
+				{
+					"path": "monthlystop/monthlystop",
+					"style": {
+						"navigationBarTitleText": "停车包月",
+						"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+						"navigationBarTextStyle": "white" // 导航栏字体颜色
+					}
+				},
+				{
+					"path": "nearby_charging/nearby_charging",
+					"style": {
+						"navigationBarTitleText": "充电区费率",
+						"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+						"navigationBarTextStyle": "white" // 导航栏字体颜色
+					}
+				},
+				{
+					"path": "nearest_charging/nearest_charging",
+					"style": {
+						"navigationBarTitleText": "附近电站",
+						"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+						"navigationBarTextStyle": "white" // 导航栏字体颜色
+					}
+				},
+				{
+					"path": "Operation_guide/Operation_guide",
+					"style": {
+						"navigationBarTitleText": "操作指引",
+						"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+						"navigationBarTextStyle": "white" // 导航栏字体颜色
+					}
+				},
+				{
+					"path": "Operation_guide_details/Operation_guide_details",
+					"style": {
+						"navigationBarTitleText": "操作指引详情",
+						"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+						"navigationBarTextStyle": "white" // 导航栏字体颜色
+					}
+				},
+				{
+					"path": "poweron/poweron",
+					"style": {
+						"navigationBarTitleText": "充电",
+						"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+						"navigationBarTextStyle": "white" // 导航栏字体颜色
+					}
+				},
+				{
+					"path": "protocol_specification/protocol_specification",
+					"style": {
+						"navigationBarTitleText": "协议规范",
+						"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+						"navigationBarTextStyle": "white" // 导航栏字体颜色
+					}
+				},
+				{
+					"path": "qr_code/qr_code",
+					"style": {
+						"navigationBarTitleText": "关注公众号",
+						"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+						"navigationBarTextStyle": "white" // 导航栏字体颜色
+					}
+				},
+				{
+					"path": "remote_charging/remote_charging",
+					"style": {
+						"navigationBarTitleText": "远程充电",
+						"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+						"navigationBarTextStyle": "white" // 导航栏字体颜色
+					}
+				},
+				{
+					"path": "trouble_shooting/trouble_shooting",
+					"style": {
+						"navigationBarTitleText": "故障报修",
+						"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+						"navigationBarTextStyle": "white" // 导航栏字体颜色
+					}
+				},
+				{
+					"path": "unsettled_order/unsettled_order",
+					"style": {
+						"navigationBarTitleText": "未结算订单",
+						"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+						"navigationBarTextStyle": "white" // 导航栏字体颜色
+					}
+				},
+				{
+					"path": "unsettled_order_detail/unsettled_order_detail",
+					"style": {
+						"navigationBarTitleText": "未结算订单详情",
+						"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+						"navigationBarTextStyle": "white" // 导航栏字体颜色
+					}
+				},
+				{
+					"path": "using_help/using_help",
+					"style": {
+						"navigationBarTitleText": "使用帮助",
+						"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+						"navigationBarTextStyle": "white" // 导航栏字体颜色
+					}
+				},
+				{
+					"path": "using_help_detail/using_help_detail",
+					"style": {
+						"navigationBarTitleText": "使用帮助详情",
+						"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+						"navigationBarTextStyle": "white" // 导航栏字体颜色
+					}
+				},
+				{
+					"path": "using_help_list/using_help_list",
+					"style": {
+						"navigationBarTitleText": "使用帮助列表",
+						"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+						"navigationBarTextStyle": "white" // 导航栏字体颜色
+					}
+				}
+			]
+		},
+		{
+			"root": "pagetwo",
+			"pages": [{
+					"path": "about_us/about_us",
+					"style": {
+						"navigationBarTitleText": "关于我们",
+						"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+						"navigationBarTextStyle": "white" // 导航栏字体颜色
+					}
+				},
+				{
+					"path": "apply_refund/apply_refund",
+					"style": {
+						"navigationBarTitleText": "申请退款",
+						"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+						"navigationBarTextStyle": "white" // 导航栏字体颜色
+					}
+				},
+				{
+					"path": "appointment_installation/appointment_installation",
+					"style": {
+						"navigationBarTitleText": "站点报装",
+						"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+						"navigationBarTextStyle": "white" // 导航栏字体颜色
+					}
+				},
+				{
+					"path": "contact_kf/contact_kf",
+					"style": {
+						"navigationBarTitleText": "合作加盟",
+						"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+						"navigationBarTextStyle": "white" // 导航栏字体颜色
+					}
+				},
+				{
+					"path": "feedback/feedback",
+					"style": {
+						"navigationBarTitleText": "意见反馈",
+						"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+						"navigationBarTextStyle": "white" // 导航栏字体颜色
+					}
+				},
+				{
+					"path": "guard_record/guard_record",
+					"style": {
+						"navigationBarTitleText": "充电守护记录",
+						"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+						"navigationBarTextStyle": "white" // 导航栏字体颜色
+					}
+				},
+				{
+					"path": "more/more",
+					"style": {
+						"navigationBarTitleText": "更多",
+						"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+						"navigationBarTextStyle": "white" // 导航栏字体颜色
+					}
+				},
+				{
+					"path": "my_guarantee/my_guarantee",
+					"style": {
+						"navigationBarTitleText": "我的保障",
+						"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+						"navigationBarTextStyle": "white" // 导航栏字体颜色
+					}
+				},
+				{
+					"path": "my_message/my_message",
+					"style": {
+						"navigationBarTitleText": "我的信息",
+						"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+						"navigationBarTextStyle": "white" // 导航栏字体颜色
+					}
+				},
+				{
+					"path": "notice_notice/notice_notice",
+					"style": {
+						"navigationBarTitleText": "通知公告",
+						"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+						"navigationBarTextStyle": "white" // 导航栏字体颜色
+					}
+				},
+				{
+					"path": "notice_notice_detail/notice_notice_detail",
+					"style": {
+						"navigationBarTitleText": "通知公告详情",
+						"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+						"navigationBarTextStyle": "white" // 导航栏字体颜色
+					}
+				},
+				{
+					"path": "personal_data/personal_data",
+					"style": {
+						"navigationBarTitleText": "个人资料",
+						"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+						"navigationBarTextStyle": "white" // 导航栏字体颜色
+					}
+				},
+				{
+					"path": "recharge_record/recharge_record",
+					"style": {
+						"navigationBarTitleText": "充值记录",
+						"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+						"navigationBarTextStyle": "white" // 导航栏字体颜色
+					}
+				},
+				{
+					"path": "records_consumption/records_consumption",
+					"style": {
+						"navigationBarTitleText": "消费记录",
+						"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+						"navigationBarTextStyle": "white" // 导航栏字体颜色
+					}
+				},
+				{
+					"path": "refund/refund",
+					"style": {
+						"navigationBarTitleText": "退款",
+						"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+						"navigationBarTextStyle": "white" // 导航栏字体颜色
+					}
+				},
+				{
+					"path": "refund_details/refund_details",
+					"style": {
+						"navigationBarTitleText": "退款记录",
+						"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+						"navigationBarTextStyle": "white" // 导航栏字体颜色
+					}
+				},
+				{
+					"path": "guard_vip/guard_vip",
+					"style": {
+						"navigationBarTitleText": "充电守护VIP",
+						"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+						"navigationBarTextStyle": "white" // 导航栏字体颜色
+					}
+				},
+				{
+					"path": "guard_record_vip/guard_record_vip",
+					"style": {
+						"navigationBarTitleText": "充电守护VIP购买记录",
+						"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+						"navigationBarTextStyle": "white" // 导航栏字体颜色
+					}
+				}
+			]
+		}
+		// {
+		// 	"root": "pagethree",
+		// 	"pages": [{
+		// 			"path": "community_information/community_information",
+		// 			"style": {
+		// 				"navigationBarTitleText": "小区信息",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "consumption_statistics/consumption_statistics",
+		// 			"style": {
+		// 				"navigationBarTitleText": "消费统计",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "consumption_statistics_detail/consumption_statistics_detail",
+		// 			"style": {
+		// 				"navigationBarTitleText": "消费统计详情",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "enter_idcard/enter_idcard",
+		// 			"style": {
+		// 				"navigationBarTitleText": "输入身份证",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "equipment_abnormality/equipment_abnormality",
+		// 			"style": {
+		// 				"navigationBarTitleText": "设备异常统计",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "equipment_abnormality_detail/equipment_abnormality_detail",
+		// 			"style": {
+		// 				"navigationBarTitleText": "设备异常统计详情",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "equipment_statistics/equipment_statistics",
+		// 			"style": {
+		// 				"navigationBarTitleText": "设备统计",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "message_notification/message_notification",
+		// 			"style": {
+		// 				"navigationBarTitleText": "消息通知",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "open_account/open_account",
+		// 			"style": {
+		// 				"navigationBarTitleText": "开户",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "operator_management/operator_management",
+		// 			"style": {
+		// 				"navigationBarTitleText": "运营管理",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "project_statistics/project_statistics",
+		// 			"style": {
+		// 				"navigationBarTitleText": "项目统计",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "recharge_statistics/recharge_statistics",
+		// 			"style": {
+		// 				"navigationBarTitleText": "充值统计",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "recharge_statistics_detail/recharge_statistics_detail",
+		// 			"style": {
+		// 				"navigationBarTitleText": "充值统计详情",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "revenue_statistics/revenue_statistics",
+		// 			"style": {
+		// 				"navigationBarTitleText": "收益统计",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "revenue_statistics_details/revenue_statistics_details",
+		// 			"style": {
+		// 				"navigationBarTitleText": "收益统计详情",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "sim_adduserlist/sim_adduserlist",
+		// 			"style": {
+		// 				"navigationBarTitleText": "sim账号绑定用户列表",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "simcard_add/simcard_add",
+		// 			"style": {
+		// 				"navigationBarTitleText": "绑定sim卡系统账号",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "simlist/simlist",
+		// 			"style": {
+		// 				"navigationBarTitleText": "临期sim卡列表",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "simmid/simmid",
+		// 			"style": {
+		// 				"navigationBarTitleText": "运营商流量卡",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "site_insurance_buy/site_insurance_buy",
+		// 			"style": {
+		// 				"navigationBarTitleText": "场地险购买",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "site_insurance_certificate/site_insurance_certificate",
+		// 			"style": {
+		// 				"navigationBarTitleText": "场地险凭证",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "site_insurance_community/site_insurance_community",
+		// 			"style": {
+		// 				"navigationBarTitleText": "小区场地险",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "site_insurance_detail/site_insurance_detail",
+		// 			"style": {
+		// 				"navigationBarTitleText": "场地险订单详情",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "site_insurance_order/site_insurance_order",
+		// 			"style": {
+		// 				"navigationBarTitleText": "确认订单",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "site_insurance_records/site_insurance_records",
+		// 			"style": {
+		// 				"navigationBarTitleText": "场地险购买记录",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "unbind_private_card/unbind_private_card",
+		// 			"style": {
+		// 				"navigationBarTitleText": "解绑私卡",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "upload_qualification/upload_qualification",
+		// 			"style": {
+		// 				"navigationBarTitleText": "上传资质",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "user_statistics/user_statistics",
+		// 			"style": {
+		// 				"navigationBarTitleText": "用户统计",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "user_statistics_detail/user_statistics_detail",
+		// 			"style": {
+		// 				"navigationBarTitleText": "用户统计详情",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "withdrawal_management/withdrawal_management",
+		// 			"style": {
+		// 				"navigationBarTitleText": "提现管理",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		}
+		// 	]
+		// },
+		// {
+		// 	"root": "pagefour",
+		// 	"pages": [{
+		// 			"path": "access_control_equipment/access_control_equipment",
+		// 			"style": {
+		// 				"navigationBarTitleText": "门禁设备",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "add_administrator/add_administrator",
+		// 			"style": {
+		// 				"navigationBarTitleText": "添加管理员",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "add_cell/add_cell",
+		// 			"style": {
+		// 				"navigationBarTitleText": "添加小区",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "add_charging_area/add_charging_area",
+		// 			"style": {
+		// 				"navigationBarTitleText": "添加充电区",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "charging_area/charging_area",
+		// 			"style": {
+		// 				"navigationBarTitleText": "充电区",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "common_addition_rate/common_addition_rate",
+		// 			"style": {
+		// 				"navigationBarTitleText": "常用添加费率",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "common_modification_rate/common_modification_rate",
+		// 			"style": {
+		// 				"navigationBarTitleText": "常用修改费率",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "community_details/community_details",
+		// 			"style": {
+		// 				"navigationBarTitleText": "运营设置",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "early_warning_setting/early_warning_setting",
+		// 			"style": {
+		// 				"navigationBarTitleText": "预警设置",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "equipment_list/equipment_list",
+		// 			"style": {
+		// 				"navigationBarTitleText": "设备清单",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "Failsafe_host/Failsafe_host",
+		// 			"style": {
+		// 				"navigationBarTitleText": "漏保主机",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "modify_administrator/modify_administrator",
+		// 			"style": {
+		// 				"navigationBarTitleText": "修改管理员",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "modify_cell/modify_cell",
+		// 			"style": {
+		// 				"navigationBarTitleText": "修改小区信息",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "monthly_addition_rate/monthly_addition_rate",
+		// 			"style": {
+		// 				"navigationBarTitleText": "包月添加费率",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "monthly_revised_rate/monthly_revised_rate",
+		// 			"style": {
+		// 				"navigationBarTitleText": "包月修改费率",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "port_list/port_list",
+		// 			"style": {
+		// 				"navigationBarTitleText": "绑定端口",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "port_management/port_management",
+		// 			"style": {
+		// 				"navigationBarTitleText": "端口码管理",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "project_management/project_management",
+		// 			"style": {
+		// 				"navigationBarTitleText": "项目管理",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "rate_binding/rate_binding",
+		// 			"style": {
+		// 				"navigationBarTitleText": "费率绑定",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "rate_setting/rate_setting",
+		// 			"style": {
+		// 				"navigationBarTitleText": "费率设置",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "temporary_addition_rate/temporary_addition_rate",
+		// 			"style": {
+		// 				"navigationBarTitleText": "临时添加费率",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "temporary_modification_rates/temporary_modification_rates",
+		// 			"style": {
+		// 				"navigationBarTitleText": "临时修改费率",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		}
+		// 	]
+		// },
+		// {
+		// 	"root": "pagefive",
+		// 	"pages": [{
+		// 			"path": "add_user/add_user",
+		// 			"style": {
+		// 				"navigationBarTitleText": "添加用户",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "admin_account_recharge/admin_account_recharge",
+		// 			"style": {
+		// 				"navigationBarTitleText": "管理员帐户充值",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "admin_monthlystop/admin_monthlystop",
+		// 			"style": {
+		// 				"navigationBarTitleText": "用户购买停车包月",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "electric_card_binding/electric_card_binding",
+		// 			"style": {
+		// 				"navigationBarTitleText": "绑定电卡",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "modify_user_information/modify_user_information",
+		// 			"style": {
+		// 				"navigationBarTitleText": "修改用户信息",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "monthly_purchase/monthly_purchase",
+		// 			"style": {
+		// 				"navigationBarTitleText": "购买包月",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "query_users/query_users",
+		// 			"style": {
+		// 				"navigationBarTitleText": "查询用户",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "stopcar_purchase/stopcar_purchase",
+		// 			"style": {
+		// 				"navigationBarTitleText": "购买停车包月",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "user_detail/user_detail",
+		// 			"style": {
+		// 				"navigationBarTitleText": "用户详情",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "user_recharge_record/user_recharge_record",
+		// 			"style": {
+		// 				"navigationBarTitleText": "用户充值记录",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "user_records_consumption/user_records_consumption",
+		// 			"style": {
+		// 				"navigationBarTitleText": "用户消费记录",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "user_refund_details/user_refund_details",
+		// 			"style": {
+		// 				"navigationBarTitleText": "注册用户退款记录",
+		// 				"navigationBarBackgroundColor": "#242225", // 导航栏背景颜色
+		// 				"navigationBarTextStyle": "white" // 导航栏字体颜色
+		// 			}
+		// 		}
+		// 	]
+		// }
+	],
+	// "preloadRule": {
+	// 	"pages/login/login": {
+	// 		"network": "all",
+	// 		"packages": ["pages"]
+	// 	},
+	// 	"pagetwo/contact_kf/contact_kf": {
+	// 		"network": "all",
+	// 		"packages": ["pagetwo"]
+	// 	},
+	// 	"pagefour/charging_area/charging_area": {
+	// 		"network": "all",
+	// 		"packages": ["pagethree"]
+	// 	}
+
+	// },
+	"tabBar": {
+		"custom": true,
+		"color": "#bdbdbd",
+		"selectedColor": "#007aff",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/tabBarimg/home.png",
+			"selectedIconPath": "static/tabBarimg/home1.png",
+			"text": "个人中心"
+		}, {
+			"pagePath": "pages/smcharging/smcharging",
+			"iconPath": "static/tabBarimg/hm.png",
+			"selectedIconPath": "static/tabBarimg/hm1.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/chargingzhong/chargingzhong",
+			"iconPath": "static/tabBarimg/hmz.png",
+			"selectedIconPath": "static/tabBarimg/hmz1.png",
+			"text": "充电中"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"enablePullDownRefresh": true,
+		"usingComponents": {
+			"van-button": "/wxcomponents/vant/button/index",
+			"van-cell": "/wxcomponents/vant/cell/index",
+			"van-cell-group": "/wxcomponents/vant/cell-group/index",
+			"van-dialog": "/wxcomponents/vant/dialog/index",
+			"van-popup": "/wxcomponents/vant/popup/index",
+			"van-picker": "/wxcomponents/vant/picker/index",
+			"van-toast": "/wxcomponents/vant/toast/index",
+			"van-tab": "/wxcomponents/vant/tab/index",
+			"van-tabs": "/wxcomponents/vant/tabs/index",
+			"van-collapse": "/wxcomponents/vant/collapse/index",
+			"van-collapse-item": "/wxcomponents/vant/collapse-item/index",
+			"van-checkbox": "/wxcomponents/vant/checkbox/index",
+			"van-checkbox-group": "/wxcomponents/vant/checkbox-group/index",
+			"van-switch": "/wxcomponents/vant/switch/index",
+			"van-radio": "/wxcomponents/vant/radio/index",
+			"van-radio-group": "/wxcomponents/vant/radio-group/index",
+			"van-stepper": "/wxcomponents/vant/stepper/index",
+			"van-field": "/wxcomponents/vant/field/index",
+			"van-notice-bar": "/wxcomponents/vant/notice-bar/index",
+			"van-datetime-picker": "/wxcomponents/vant/datetime-picker/index",
+			"van-config-provider": "/wxcomponents/vant/config-provider/index",
+			"van-icon": "/wxcomponents/vant/icon/index",
+			"van-image": "/wxcomponents/vant/image/index",
+			"van-row": "/wxcomponents/vant/row/index",
+			"van-col": "/wxcomponents/vant/col/index",
+			"van-transition": "/wxcomponents/vant/transition/index",
+			"van-calendar": "/wxcomponents/vant/calendar/index",
+			"van-rate": "/wxcomponents/vant/rate/index",
+			"van-search": "/wxcomponents/vant/search/index",
+			"van-uploader": "/wxcomponents/vant/uploader/index",
+			"van-action-sheet": "/wxcomponents/vant/action-sheet/index",
+			"van-loading": "/wxcomponents/vant/loading/index",
+			"van-notify": "/wxcomponents/vant/notify/index",
+			"van-overlay": "/wxcomponents/vant/overlay/index",
+			"van-share-sheet": "/wxcomponents/vant/share-sheet/index",
+			"van-swipe-cell": "/wxcomponents/vant/swipe-cell/index",
+			"van-circle": "/wxcomponents/vant/circle/index",
+			"van-count-down": "/wxcomponents/vant/count-down/index",
+			"van-divider": "/wxcomponents/vant/divider/index",
+			"van-empty": "/wxcomponents/vant/empty/index",
+			"van-progress": "/wxcomponents/vant/progress/index",
+			"van-skeleton": "/wxcomponents/vant/skeleton/index",
+			"van-steps": "/wxcomponents/vant/steps/index",
+			"van-sticky": "/wxcomponents/vant/sticky/index",
+			"van-tag": "/wxcomponents/vant/tag/index",
+			"van-grid": "/wxcomponents/vant/grid/index",
+			"van-grid-item": "/wxcomponents/vant/grid-item/index",
+			"van-index-bar": "/wxcomponents/vant/index-bar/index",
+			"van-index-anchor": "/wxcomponents/vant/index-anchor/index",
+			"van-nav-bar": "/wxcomponents/vant/nav-bar/index",
+			"van-sidebar": "/wxcomponents/vant/sidebar/index",
+			"van-sidebar-item": "/wxcomponents/vant/sidebar-item/index",
+			"van-tabbar": "/wxcomponents/vant/tabbar/index",
+			"van-tabbar-item": "/wxcomponents/vant/tabbar-item/index",
+			"van-tree-select": "/wxcomponents/vant/tree-select/index",
+			"van-card": "/wxcomponents/vant/card/index",
+			"van-submit-bar": "/wxcomponents/vant/submit-bar/index",
+			"van-goods-action": "/wxcomponents/vant/goods-action/index",
+			"van-goods-action-icon": "/wxcomponents/vant/goods-action-icon/index",
+			"van-goods-action-button": "/wxcomponents/vant/goods-action-button/index"
+		}
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"uni-datetime-picker": "@/components/uni-datetime-picker/uni-datetime-picker.vue",
+			"uni-load-more": "@/components/uni-load-more/uni-load-more.vue"
+		}
+	}
+
+
+}

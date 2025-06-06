@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "充电中",
+  "usingComponents": {
+    "tou_hand": "/components/tou_hand/tou_hand",
+    "uni-load-more": "/components/uni-load-more/uni-load-more",
+    "tab-bar": "/components/tabBar/tabBar"
+  }
+}

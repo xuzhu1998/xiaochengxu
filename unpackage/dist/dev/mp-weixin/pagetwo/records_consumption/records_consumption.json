@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "消费记录",
+  "navigationBarBackgroundColor": "#242225",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "uni-datetime-picker": "/components/uni-datetime-picker/uni-datetime-picker",
+    "uni-load-more": "/components/uni-load-more/uni-load-more"
+  }
+}

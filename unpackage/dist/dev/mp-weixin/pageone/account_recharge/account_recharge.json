@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "账户充值",
+  "navigationBarBackgroundColor": "#242225",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "tou_hand3": "/components/tou_hand3/tou_hand3"
+  }
+}

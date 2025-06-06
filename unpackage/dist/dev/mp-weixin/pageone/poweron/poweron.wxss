@@ -1,0 +1,1789 @@
+
+page {
+	height: 100%;
+	background-color: #242225;
+}
+::-webkit-scrollbar {
+        width: 0 !important;
+        height: 0 !important;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.main {
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+.main .check-popup {
+  width: 80%;
+  padding: 30rpx;
+  box-sizing: border-box;
+}
+.main .check-popup-icon {
+  text-align: right;
+}
+.main .check-popup-but {
+  width: 100%;
+  margin-top: 40rpx;
+}
+.main .check-popup .title {
+  padding: 20rpx 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 36rpx;
+}
+.main .check-popup .content {
+  text-align: center;
+  line-height: 50rpx;
+  font-size: 30rpx;
+}
+.main .hand {
+  width: 100%;
+  background-color: #242225;
+  font-size: 30rpx;
+  padding: 20rpx 0;
+  font-family: PingFang SC Bold, PingFang SC Bold-Bold;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+}
+.main .hand image {
+  width: 22rpx;
+  height: 39rpx;
+  position: absolute;
+  left: 31rpx;
+  top: 22rpx;
+}
+.main .foothand {
+  width: 90%;
+  background: linear-gradient(180deg, #FFA73E 0%, #FF752B 100%);
+  border-radius: 24rpx;
+  padding: 10rpx 24rpx;
+  margin: 0 auto;
+  box-sizing: border-box;
+  margin-top: 30rpx;
+  color: #fff;
+}
+.main .gtap {
+  width: 649rpx;
+  height: 240rpx;
+  border-radius: 16rpx;
+  margin: 0 auto;
+  margin-bottom: 50rpx;
+}
+.main .gtap image {
+  width: 649rpx;
+  height: 240rpx;
+  border-radius: 16rpx;
+}
+.main .gtap .tapone {
+  width: 649rpx;
+  height: 240rpx;
+  border-radius: 16rpx;
+  position: relative;
+}
+.main .gtap .tapone .taponesun {
+  width: 100%;
+  height: 100%;
+  border-radius: 16rpx;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+}
+.main .gztan {
+  width: 650rpx;
+  background-color: #FFFFFF;
+  text-align: center;
+  padding: 70rpx 0;
+}
+.main .gztan .gztanimg {
+  width: 350rpx;
+  height: 350rpx;
+  margin: 0 auto;
+}
+.main .gztan .gztanimg ._img {
+  width: 350rpx;
+  height: 350rpx;
+}
+.main .gztan .gztantxt {
+  margin-top: 30rpx;
+  font-size: 20rpx;
+}
+.main .hdlogo {
+  width: 100%;
+  padding: 50rpx;
+}
+.main .hdlogo image {
+  width: 213rpx;
+  height: 64rpx;
+}
+.main .hdlogo1 {
+  width: 100%;
+  padding: 10rpx 50rpx;
+}
+.main .hdlogo1 image {
+  width: 160rpx;
+  height: 160rpx;
+}
+.main .showhand {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 45rpx;
+  margin-bottom: 10rpx;
+}
+.main .showhand .sone {
+  border-radius: 20rpx;
+  background: linear-gradient(180deg, #FFA73E 0%, #FF752B 100%);
+  font-size: 28rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20rpx 40rpx;
+  border: 2rpx solid #FFFFFF;
+}
+.main .showhand .sone1 {
+  padding: 20rpx 40rpx;
+  border-radius: 20rpx;
+  font-size: 28rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #FFFFFF;
+  text-align: center;
+  background: #434045;
+  border: 2rpx solid #FFFFFF;
+}
+.main .map {
+  width: 686rpx;
+  margin: 0 auto;
+  border-radius: 16rpx;
+  background-color: #242225;
+  box-sizing: border-box;
+}
+.main .map .mapone {
+  background: #343136;
+  border-radius: 24rpx;
+  box-sizing: border-box;
+  padding: 24rpx 30rpx;
+  margin-top: 24rpx;
+}
+.main .map .mapone .mhand {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 24rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #D0D0D0;
+}
+.main .map .mapone .mtap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.main .map .mapone .mtap .mchu {
+  padding: 40rpx 0;
+  width: 160rpx;
+  background: rgba(236, 101, 28, 0.14);
+  border-radius: 24rpx;
+  border: 3rpx solid #EC651C;
+  font-size: 28rpx;
+  font-family: PingFang SC Bold, PingFang SC Bold-Bold;
+  font-weight: 700;
+  text-align: left;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 32rpx;
+  position: relative;
+}
+.main .map .mapone .mtap .mchu .mfx {
+  font-size: 18rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 2rpx 10rpx;
+  background-color: #FF6262;
+  position: absolute;
+  top: 0rpx;
+  border-radius: 24rpx 0 0 0;
+}
+.main .map .mapone .mtap .mchu .shuc {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  padding: 0 10rpx;
+}
+.main .map .mapone .mtap .mchu .shuc input {
+  width: 50%;
+  border-bottom: 1rpx solid #FFFFFF;
+}
+.main .map .mapone .mtap .mchu .shuc input .uni-input-placeholder {
+  color: #FFFFFF;
+}
+.main .map .mapone .mtap .mchu1 {
+  padding: 40rpx 0;
+  width: 160rpx;
+  background: #434045;
+  border-radius: 24rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC Bold, PingFang SC Bold-Bold;
+  font-weight: 700;
+  text-align: left;
+  color: #FFFFFF;
+  text-align: center;
+  border: 3rpx solid #434045;
+  margin-top: 32rpx;
+  position: relative;
+}
+.main .map .mapone .mtap .mchu1 .mfx {
+  font-size: 18rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 2rpx 10rpx;
+  background-color: #FF6262;
+  position: absolute;
+  top: 0rpx;
+  border-radius: 24rpx 0 0 0;
+}
+.main .map .mapone .tishi {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 18rpx;
+  font-size: 24rpx;
+  font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+  font-weight: 500;
+  color: #666666;
+  margin-bottom: 40rpx;
+}
+.main .map .mapone .tishi view {
+  margin-bottom: 15rpx;
+}
+.main .map .mapone .tishi1 {
+  background: #434045;
+  box-sizing: border-box;
+  padding: 36rpx;
+  border-radius: 24rpx;
+  font-size: 24rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #FFA02E;
+  margin-top: 24rpx;
+}
+.main .map .mapone .tishi1 .tishi1tap {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 20rpx;
+  color: #FED8AB;
+}
+.main .map .mapone .tishi1 .tishi1tap image {
+  width: 35rpx;
+  height: 35rpx;
+  margin-right: 10rpx;
+}
+.main .map .mapone .tishi1 .tishi1tap ._span {
+  color: #FFA02E;
+}
+.main .map .mapone .tishi2 {
+  background: #434045;
+  box-sizing: border-box;
+  padding: 36rpx;
+  border-radius: 24rpx;
+  font-size: 30rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #FFA02E;
+  margin-top: 24rpx;
+  display: flex;
+  align-items: center;
+}
+.main .map .mapone .tishi2 .van-checkbox__icon {
+  border-radius: 50%;
+  border-color: #FFA02E;
+}
+.main .map .mapone .tishi2 .van-checkbox__icon--checked {
+  background-color: #FFA02E;
+  border-color: #FFA02E;
+  border-radius: 50%;
+}
+.main .map .mapone .tishi2 .van-checkbox__label {
+  color: #FFA02E;
+}
+.main .map .mapone .tishi3 {
+  background: rgba(236, 101, 28, 0.14);
+  box-sizing: border-box;
+  padding: 36rpx;
+  border-radius: 24rpx;
+  font-size: 30rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #FFA02E;
+  margin-top: 24rpx;
+  display: flex;
+  align-items: center;
+}
+.main .map .mapone .tishi3 .van-checkbox__icon {
+  border-radius: 50%;
+  border-color: #FFA02E;
+}
+.main .map .mapone .tishi3 .van-checkbox__icon--checked {
+  background-color: #FFA02E;
+  border-color: #FFA02E;
+  border-radius: 50%;
+}
+.main .map .mapone .tishi3 .van-checkbox__label {
+  color: #FFA02E;
+}
+.main .map .mapone .tishi5 {
+  background: #434045;
+  box-sizing: border-box;
+  padding: 36rpx;
+  border-radius: 24rpx;
+  font-size: 30rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #FFA02E;
+  margin-top: 24rpx;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.main .map .mapone .tishi5 image {
+  width: 166rpx;
+  height: 53rpx;
+  position: absolute;
+  top: 0rpx;
+  left: 0rpx;
+}
+.main .map .mapone .tishi5 .van-checkbox__icon {
+  border-radius: 50%;
+  border-color: #FFA02E;
+}
+.main .map .mapone .tishi5 .van-checkbox__icon--checked {
+  background-color: #FFA02E;
+  border-color: #FFA02E;
+  border-radius: 50%;
+}
+.main .map .mapone .tishi5 .van-checkbox__label {
+  color: #FFA02E;
+}
+.main .map .mapone .tishi4 {
+  box-sizing: border-box;
+  padding: 36rpx;
+  border-radius: 24rpx;
+  background: #343136;
+  box-shadow: inset 0px 0px 26px 6px rgba(236, 101, 28, 0.58);
+  font-size: 30rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #FFA02E;
+  margin-top: 24rpx;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.main .map .mapone .tishi4 image {
+  width: 166rpx;
+  height: 53rpx;
+  position: absolute;
+  top: 0rpx;
+  left: 0rpx;
+}
+.main .map .mapone .tishi4 .van-checkbox__icon {
+  border-radius: 50%;
+  border-color: #FFA02E;
+}
+.main .map .mapone .tishi4 .van-checkbox__icon--checked {
+  background-color: #FFA02E;
+  border-color: #FFA02E;
+  border-radius: 50%;
+}
+.main .map .mapone .tishi4 .van-checkbox__label {
+  color: #FFA02E;
+}
+.main .map .mapone .tishi6 {
+  background: #434045;
+  box-sizing: border-box;
+  padding: 36rpx;
+  border-radius: 24rpx;
+  font-size: 30rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #FFA02E;
+  margin-top: 24rpx;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+}
+.main .map .mapone .tishi6 .tishi6txt {
+  display: flex;
+  align-items: center;
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #FFA02E;
+}
+.main .map .mapone .tishi6 .tishi6txt .tishi6txtone {
+  text-decoration: line-through;
+  font-size: 22rpx;
+  font-weight: 400;
+  color: #FFFFFF;
+  margin-right: 8rpx;
+}
+.main .map .mapone .tishi6 .vipimg {
+  width: 166rpx;
+  height: 53rpx;
+  position: absolute;
+  top: 0rpx;
+  right: 0rpx;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJUAAAAwBAMAAADqXSUhAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAbUExURUdwTPlKHfpcJvpgJ/lXIflSIfleJ/lvMPlnKze4Wg4AAAAFdFJOUwDjdrQxh6qXAwAAAT1JREFUSMfNlTtPwzAUhQ/UYjZDgbFIRGUMSDzG8JIYWZw5SyKPSCA5I2Jw/LO5bhrU8FALPkO/2M5VnHw6tqIEiNxeuRTOCwyouUvlZHClq5yb9aoJQeVeetchw+VyWqxlsHnbtq5L8rRRITum2hC6IEMCXeRVligmCu/AYyDRAacsVyhw7b0P1vqQcthIjiMZG+9Tu5AjVl9ttlnfx/dLCxrNT9gN+jee4RsS9pdc/+INBzSXxmXJokJWk5Bce2Vp6kXv20q5YVsg5wq7xkhhPqeM+avMRESpoep6LBvKOG/W1MsnBLleAZkhoeUDxnJJLlzwcsXdp/AU/x4PvFzAMS+XLPNsP4FRrlTus5VcydzRcgk3vFxQU55LgtHWKG88LxemRFdGdO0QXROiSxFd0ERXTnTNttRVbKkLH8N4fRMf+peTAAAAAElFTkSuQmCC);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  font-size: 20rpx;
+  font-weight: 400;
+  color: #F7FAFB;
+  text-align: center;
+}
+.main .map .mapone .tishi7 {
+  width: 100%;
+  height: 83rpx;
+  background-image: url(data:image/png;base64,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);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 0 24rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  margin-top: 24rpx;
+  border-radius: 20rpx;
+}
+.main .map .mapone .tishi7 .tishi7one {
+  display: flex;
+  align-items: center;
+  font-size: 26rpx;
+  font-weight: 400;
+  color: #6A4714;
+}
+.main .map .mapone .tishi7 .tishi7one image {
+  width: 36rpx;
+  height: 33rpx;
+  margin-right: 13rpx;
+}
+.main .map .mapone .tishi7 .tishi7two {
+  background: linear-gradient(270deg, #492D04 0%, #6A4714 77%, #875916 99%, #875916 100%);
+  border-radius: 25rpx;
+  padding: 10rpx 24rpx;
+  text-align: center;
+  font-size: 24rpx;
+  font-family: Source Han Sans CN-Normal, Source Han Sans CN;
+  font-weight: 400;
+  color: #F0E1C9;
+}
+.main .map .mapone .xza .xza1 {
+  font-size: 30rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 600;
+  color: #D0D0D0;
+  text-align: left;
+  margin: 20rpx 0;
+}
+.main .map .mapone .xza .xzb1 {
+  background: rgba(236, 101, 28, 0.14);
+  border-radius: 24rpx;
+}
+.main .map .mapone .xza .xzb2 {
+  background: #434045;
+  border-radius: 24rpx;
+}
+.main .map .mapone .xza .van-radio__label {
+  color: #FFA02E;
+}
+.main .map .mapone .xza .van-radio-group {
+  display: flex;
+  justify-content: space-between;
+}
+.main .map .mapone .xza .van-radio {
+  box-sizing: border-box;
+  padding: 36rpx 40rpx;
+  font-size: 30rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+}
+.main .map .mapone .xza .van-radio__icon--checked {
+  background-color: #FFA02E;
+  border-color: #FFA02E;
+}
+.main .map .lun {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 40rpx;
+}
+.main .map .lun .van-notice-bar {
+  border-radius: 24rpx;
+  height: 70rpx;
+}
+.main .map .mshow {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 36rpx;
+  padding-bottom: 10rpx;
+  background: #343136;
+  border-radius: 24rpx;
+}
+.main .map .mshow .mslist {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding: 22rpx 36rpx;
+}
+.main .map .mshow .mslist .msleft {
+  font-size: 30rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #D0D0D0;
+  text-align: left;
+  width: 25%;
+}
+.main .map .mshow .mslist .msright {
+  font-size: 30rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #FFFFFF;
+  text-align: left;
+  width: 64%;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.main .dbtap {
+  font-size: 28rpx;
+  font-family: PingFang SC Regular, PingFang SC Regular-Regular;
+  font-weight: 400;
+  color: #999999;
+  box-sizing: border-box;
+  padding: 0 47rpx;
+  margin-top: 15rpx;
+  padding-bottom: 160rpx;
+}
+.main .buyby {
+  width: 160rpx;
+  background-color: #007AFF;
+  font-size: 28rpx;
+  font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  padding: 15rpx 0;
+  border-radius: 12rpx;
+  margin: 0 47rpx;
+  margin-top: 10rpx;
+  margin-bottom: 160rpx;
+}
+.main .double {
+  position: fixed;
+  display: flex;
+  bottom: 40rpx;
+  left: 5%;
+  width: 90%;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.main .double .leftbtn {
+  width: 30%;
+  height: 98rpx;
+  font-size: 32rpx;
+  font-family: PingFang SC Bold, PingFang SC Bold-Bold;
+  font-weight: 700;
+  color: #ED681C;
+  text-align: center;
+  line-height: 98rpx;
+  background: linear-gradient(180deg, #FFE8C2 0%, #FFC387 100%);
+  border-radius: 36rpx;
+}
+.main .double .rightbtn {
+  width: 66%;
+  height: 98rpx;
+  font-size: 34rpx;
+  font-family: PingFang SC Bold, PingFang SC Bold-Bold;
+  font-weight: 700;
+  color: #fdfdfd;
+  text-align: center;
+  line-height: 98rpx;
+  background: linear-gradient(180deg, #FFA73E 0%, #FF752B 100%);
+  border-radius: 36rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main .double .rightbtn image {
+  width: 25rpx;
+  height: 30rpx;
+  margin-right: 8rpx;
+}
+.main .double .rightbtn .van-button__text {
+  display: flex;
+  align-items: center;
+}
+.main .double .zhongbtn {
+  width: 66%;
+  height: 98rpx;
+  font-size: 34rpx;
+  font-family: PingFang SC Bold, PingFang SC Bold-Bold;
+  font-weight: 700;
+  color: #fdfdfd;
+  display: flex;
+}
+.main .double .zhongbtn .zhongbtnone {
+  width: 50%;
+  height: 98rpx;
+  line-height: 98rpx;
+  text-align: center;
+  background: linear-gradient(180deg, #FFE175 0%, #FF9D07 100%);
+  border-radius: 36rpx 0rpx 0rpx 36rpx;
+}
+.main .double .zhongbtn .zhongbtntwo {
+  width: 50%;
+  height: 98rpx;
+  line-height: 98rpx;
+  text-align: center;
+  background: linear-gradient(180deg, #FFA73E 0%, #FF752B 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0rpx 36rpx 36rpx 0rpx;
+}
+.main .double .zhongbtn .zhongbtntwo image {
+  width: 25rpx;
+  height: 30rpx;
+  margin-right: 8rpx;
+}
+.main .double .zhongbtn .zhongbtnthree {
+  width: 100%;
+  height: 98rpx;
+  line-height: 98rpx;
+  text-align: center;
+  background: linear-gradient(180deg, #FFA73E 0%, #FF752B 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 36rpx;
+}
+.main .double .zhongbtn .zhongbtnthree image {
+  width: 25rpx;
+  height: 30rpx;
+  margin-right: 8rpx;
+}
+.main .tan .van-popup {
+  border-radius: 16rpx;
+  overflow-x: hidden;
+}
+.main .tan .tannei {
+  width: 686rpx;
+  background-color: #FFFFFF;
+}
+.main .tan .tannei .tnhand {
+  font-size: 32rpx;
+  font-family: PingFang SC Bold, PingFang SC Bold-Bold;
+  font-weight: 700;
+  text-align: center;
+  line-height: 72rpx;
+  color: #333333;
+}
+.main .tan .tannei .tnfoot .tftxt {
+  font-size: 28rpx;
+  font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+  font-weight: 500;
+  text-align: center;
+  line-height: 50rpx;
+  color: #333333;
+}
+.main .tan .tannei .tnfoot .tfshow {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  margin-top: 35rpx;
+}
+.main .tan .tannei .tnfoot .tfshow .tfbtn {
+  width: 33.33%;
+  font-size: 28rpx;
+  font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+  font-weight: 500;
+  text-align: center;
+  line-height: 80rpx;
+  color: #ffffff;
+}
+.main .tan .tannei .tnfoot .tfshow .tfbtn1 {
+  width: 50%;
+  font-size: 28rpx;
+  font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+  font-weight: 500;
+  text-align: center;
+  line-height: 80rpx;
+  color: #ffffff;
+}
+.main .tan .tannei .tnfoot .tfshow .tfbtn2 {
+  width: 100%;
+  font-size: 28rpx;
+  font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+  font-weight: 500;
+  text-align: center;
+  line-height: 80rpx;
+  color: #ffffff;
+}
+.main .tan .tannei .tnfoot .tfshow .color1 {
+  background-color: #B5B5B5;
+}
+.main .tan .tannei .tnfoot .tfshow .color2 {
+  background-color: #4BED79;
+}
+.main .tan .tannei .tnfoot .tfshow .color3 {
+  background-color: #4B98ED;
+}
+.main .tan .tannei1 {
+  width: 580rpx;
+  background-color: #FFFFFF;
+}
+.main .tan .tannei1 .tnhand {
+  width: 100%;
+  align-items: center;
+}
+.main .tan .tannei1 .tnhand .tntxt {
+  font-size: 34rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #111111;
+  padding-top: 36rpx;
+  text-align: center;
+  position: relative;
+}
+.main .tan .tannei1 .tnhand image {
+  width: 50rpx;
+  height: 50rpx;
+  position: absolute;
+  top: 19rpx;
+  right: 18rpx;
+}
+.main .tan .tannei1 .tnfoot {
+  width: 100%;
+  margin-top: 24rpx;
+  margin-bottom: 27rpx;
+  text-align: center;
+  font-size: 30rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #3A4044;
+}
+.main .tan .tannei1 .tnfoot .tfshang {
+  margin-bottom: 15rpx;
+}
+.main .tan .tannei1 .tnfoot .tfshang1 {
+  font-size: 24rpx;
+  font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+  font-weight: 500;
+  text-align: center;
+  color: #EC651C;
+  margin-top: 70rpx;
+}
+.main .tan .tannei1 .tnfoot .tfxia {
+  line-height: 65rpx;
+}
+.main .tan .tannei1 .tnfoot .tfxia1 {
+  font-size: 28rpx;
+  font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+  font-weight: 500;
+  text-align: center;
+  color: #EC651C;
+  line-height: 65rpx;
+}
+.main .tan .tannei1 .tnfoot .wxcodeimg {
+  width: 260rpx;
+  height: 260rpx;
+  margin: 47rpx auto;
+}
+.main .tan .tannei1 .tnfoot .wxcodeimg image {
+  width: 260rpx;
+  height: 260rpx;
+}
+.main .tan .tannei1 .tnfoot .wxtxt {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 45rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+  font-weight: 500;
+  text-align: left;
+  color: #333333;
+  line-height: 50rpx;
+}
+.main .tan .czone {
+  width: 686rpx;
+  position: relative;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  height: 950rpx;
+}
+.main .tan .czone .cznei {
+  width: 100%;
+  box-sizing: border-box;
+  padding-bottom: 40rpx;
+}
+.main .tan .czone .cznei .czneihand {
+  font-size: 32rpx;
+  font-family: PingFang SC Bold, PingFang SC Bold-Bold;
+  font-weight: 700;
+  text-align: center;
+  color: #333333;
+  margin: 20rpx 0;
+}
+.main .tan .czone .cznei .czneione {
+  margin-top: 20rpx;
+}
+.main .tan .czone .cznei .czneione .cztxtone {
+  font-size: 28rpx;
+  font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+  font-weight: 500;
+  color: #333333;
+  line-height: 45rpx;
+}
+.main .tan .czone .cznei .czneione .cztxttwo {
+  font-size: 28rpx;
+  font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+  font-weight: 700;
+  color: #333333;
+  margin: 10rpx 0;
+}
+.main .tan .czone .czdel {
+  position: absolute;
+  top: 5rpx;
+  right: 35rpx;
+}
+.main .tan .czone .czdel image {
+  width: 40rpx;
+  height: 40rpx;
+}
+.main .tan .flex {
+  display: flex;
+  justify-content: space-around;
+}
+.main .tan .tannei2 {
+  width: 686rpx;
+  background-color: #FFFFFF;
+}
+.main .tan .tannei2 .tquxiao {
+  width: 160rpx;
+  height: 64rpx;
+  border: 1rpx solid #000000;
+  border-radius: 16rpx;
+  line-height: 64rpx;
+  margin: 92rpx auto;
+  font-size: 28rpx;
+  font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+  font-weight: 500;
+  text-align: center;
+}
+.main .tan .tannei2 .open {
+  background-color: #1e98d7;
+  color: #ffffff;
+  width: 160rpx;
+  height: 64rpx;
+  border: 1rpx solid #1e98d7;
+  border-radius: 16rpx;
+  line-height: 64rpx;
+  margin: 92rpx auto;
+  font-size: 28rpx;
+  font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+  font-weight: 500;
+  text-align: center;
+}
+.main .tan .tannei2 .tnhand {
+  width: 100%;
+  padding-top: 58rpx;
+}
+.main .tan .tannei2 .tnhand .tntxt {
+  font-size: 34rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 700;
+  color: #111111;
+  line-height: 64rpx;
+  text-align: center;
+  position: relative;
+}
+.main .tan .tannei2 .tnhand image {
+  width: 25rpx;
+  height: 25rpx;
+  position: absolute;
+  top: 19rpx;
+  right: 18rpx;
+}
+.main .tan .tannei2 .tfshow {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  margin: 35rpx 0;
+  justify-content: center;
+}
+.main .tan .tannei2 .tfshow .tfbtn {
+  width: 33.33%;
+  font-size: 28rpx;
+  font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+  font-weight: 500;
+  text-align: center;
+  line-height: 80rpx;
+  color: #ffffff;
+}
+.main .tan .tannei2 .tfshow .tfbtn1 {
+  width: 230rpx;
+  font-size: 34rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #3A4044;
+  text-align: center;
+}
+.main .tan .tannei2 .tfshow .tfbtn2 {
+  width: 100%;
+  font-size: 28rpx;
+  font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+  font-weight: 500;
+  text-align: center;
+  line-height: 80rpx;
+  color: #ffffff;
+}
+.main .tan .tannei2 .tfshow .color1 {
+  background-color: #B5B5B5;
+}
+.main .tan .tannei2 .tfshow .color2 {
+  background-color: #4BED79;
+}
+.main .tan .tannei2 .tfshow .color3 {
+  background-color: #4B98ED;
+}
+.main .tan .tannei2 .fwfei {
+  width: 600rpx;
+  border-radius: 16rpx;
+  margin: 0 auto;
+  box-shadow: 0rpx 4rpx 9rpx 0rpx rgba(44, 44, 44, 0.21);
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+  padding: 27rpx 24rpx;
+  margin-bottom: 30rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .tan .tannei2 .fwfei .fwfeileft {
+  font-size: 28rpx;
+  font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+  font-weight: 500;
+  color: #333333;
+}
+.main .tan .tannei2 .fwfei .fwfeiright {
+  padding: 10rpx 20rpx;
+  border-radius: 10rpx;
+  background-color: #FFA02E;
+  color: #FFFFFF;
+  font-size: 22rpx;
+}
+.main .tan .tannei2 .tnfoot {
+  width: 100%;
+  margin-top: 24rpx;
+  margin-bottom: 27rpx;
+  box-sizing: border-box;
+  padding: 0 36rpx;
+}
+.main .tan .tannei2 .tnfoot .yancodetxt {
+  font-size: 28rpx;
+  font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+  font-weight: 500;
+  text-align: center;
+  color: #333333;
+}
+.main .tan .tannei2 .tnfoot .yannum {
+  width: 442rpx;
+  height: 88rpx;
+  background-color: #7BF199;
+  border-radius: 10rpx;
+  font-size: 60rpx;
+  font-family: Arial Black, Arial Black-Black;
+  font-weight: 900;
+  text-align: center;
+  line-height: 88rpx;
+  color: #333333;
+  margin: 0 auto;
+  margin-top: 34rpx;
+}
+.main .tan .tannei2 .tnfoot .yztap .yanbtn {
+  width: 255rpx;
+  height: 77rpx;
+  border-radius: 10rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+  line-height: 77rpx;
+  background-color: #4B98ED;
+  margin: 0 auto;
+  margin-top: 22rpx;
+}
+.main .tan .tannei2 .tnfoot .yzhand {
+  font-size: 32rpx;
+  font-family: PingFang SC Bold, PingFang SC Bold-Bold;
+  font-weight: 700;
+  text-align: center;
+  color: #333333;
+  margin-top: 74rpx;
+}
+.main .tan .tannei2 .tnfoot .yzfoot {
+  width: 100%;
+  display: flex;
+  margin-top: 36rpx;
+  box-sizing: border-box;
+  padding-right: 13rpx;
+}
+.main .tan .tannei2 .tnfoot .yzfoot .tzfootleft {
+  width: 399rpx;
+  height: 435rpx;
+}
+.main .tan .tannei2 .tnfoot .yzfoot .tzfootleft image {
+  width: 399rpx;
+  height: 435rpx;
+}
+.main .tan .tannei2 .tnfoot .yzfoot .tzfootright {
+  font-size: 28rpx;
+  font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+  font-weight: 500;
+  line-height: 50rpx;
+  color: #333333;
+  margin-left: 27rpx;
+}
+.main .tan .tannei2 .tnfoot .tfone {
+  background: #FFECE2;
+  border-radius: 24rpx;
+  box-sizing: border-box;
+  padding: 14rpx 24rpx;
+}
+.main .tan .tannei2 .tnfoot .tfone .tftwo {
+  font-size: 28rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #111111;
+  margin-bottom: 10rpx;
+}
+.main .tan .tannei2 .tnfoot .duanlist {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 26rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.main .tan .tannei2 .tnfoot .duanlist .duantap {
+  margin: 14rpx 0;
+  width: 230rpx;
+  background: linear-gradient(180deg, #FFA73E 0%, #FF752B 100%);
+  border-radius: 24rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+  font-weight: 500;
+  text-align: center;
+  padding: 29rpx 0;
+  color: #FFFFFF;
+  margin-right: 40rpx;
+}
+.main .tan .tannei2 .tnfoot .duanlist .duantap1 {
+  margin: 14rpx 0;
+  width: 230rpx;
+  border-radius: 24rpx;
+  border: 3rpx solid #D0D0D0;
+  font-size: 28rpx;
+  font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+  font-weight: 500;
+  text-align: center;
+  padding: 29rpx 0;
+  color: #3A4044;
+  margin-right: 40rpx;
+}
+.main .tan .tannei2 .tnfoot .duanlist1 {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  /** 0=空闲 */
+  /** 1=充电中 */
+  /** 2=未充占用 */
+  /** 3=充满占用 */
+  /** 4=端口故障 */
+  /** 5=浮充 */
+  /** 6=存储器损坏 */
+  /** 7=安全门卡住 */
+  /** 8=保险丝烧断 */
+  /** 9=继电器粘连 */
+  /** 10=门磁芯片损坏 */
+  /** 88=绑定端口 */
+  /** 99=禁用端口 */
+}
+.main .tan .tannei2 .tnfoot .duanlist1 .activePort {
+  background-color: #40d851;
+  color: #ffffff !important;
+  border: 1rpx solid #40d851;
+}
+.main .tan .tannei2 .tnfoot .duanlist1 .duantap {
+  margin: 14rpx 0;
+  width: 135rpx;
+  height: 88rpx;
+  border: 1rpx solid #F55454;
+  border-radius: 18rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+  font-weight: 500;
+  text-align: center;
+  color: #F55454;
+  margin-left: 15rpx;
+}
+.main .tan .tannei2 .tnfoot .duanlist1 .duantap1 {
+  margin: 14rpx 0;
+  width: 135rpx;
+  height: 88rpx;
+  border: 1px solid #4B98ED;
+  border-radius: 18rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+  font-weight: 500;
+  text-align: center;
+  line-height: 42rpx;
+  color: #4B98ED;
+  margin-left: 15rpx;
+}
+.main .tan .tannei2 .tnfoot .duanlist1 .port0 {
+  color: #40D851;
+  border: 1rpx solid #40D851;
+}
+.main .tan .tannei2 .tnfoot .duanlist1 .port1 {
+  color: #CDCDCD;
+  border: 1rpx solid #CDCDCD;
+}
+.main .tan .tannei2 .tnfoot .duanlist1 .port2 {
+  color: #BC12ED;
+  border: 1rpx solid #BC12ED;
+}
+.main .tan .tannei2 .tnfoot .duanlist1 .port3 {
+  color: #0103FD;
+  border: 1rpx solid #0103FD;
+}
+.main .tan .tannei2 .tnfoot .duanlist1 .port4 {
+  color: #E40C00;
+  border: 1rpx solid #E40C00;
+}
+.main .tan .tannei2 .tnfoot .duanlist1 .port5 {
+  color: #06F9E0;
+  border: 1rpx solid #06F9E0;
+}
+.main .tan .tannei2 .tnfoot .duanlist1 .port6 {
+  color: #005BAC;
+  border: 1rpx solid #005BAC;
+}
+.main .tan .tannei2 .tnfoot .duanlist1 .port7 {
+  color: #d3ac2b;
+  border: 1rpx solid #d3ac2b;
+}
+.main .tan .tannei2 .tnfoot .duanlist1 .port8 {
+  color: #009DA2;
+  border: 1rpx solid #009DA2;
+}
+.main .tan .tannei2 .tnfoot .duanlist1 .port9 {
+  color: #ee45e4;
+  border: 1rpx solid #ee45e4;
+}
+.main .tan .tannei2 .tnfoot .duanlist1 .port10 {
+  color: #FDF204;
+  border: 1rpx solid #FDF204;
+}
+.main .tan .tannei2 .tnfoot .duanlist1 .port88 {
+  color: #ffac93;
+  border: 1rpx solid #ffac93;
+}
+.main .tan .tannei2 .tnfoot .duanlist1 .port99 {
+  color: #400000;
+  border: 1rpx solid #400000;
+}
+.main .tan .tannei2 .tnfoot .duanbtn {
+  width: 570rpx;
+  height: 88rpx;
+  border-radius: 16rpx;
+  background-color: #4B98ED;
+  font-size: 32rpx;
+  font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+  line-height: 88rpx;
+  margin: 55rpx auto;
+}
+.main .tan .tannei2 .kshow {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 33rpx 36rpx;
+  background-color: #FFFFFF;
+  margin-top: 51rpx;
+}
+.main .tan .tannei2 .kshow .kone {
+  width: 100%;
+  margin-bottom: 20rpx;
+}
+.main .tan .tannei2 .kshow .kone input {
+  font-size: 28rpx;
+  font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+  font-weight: 500;
+  color: #999999;
+  border-bottom: 1rpx solid #e8e8e8;
+  padding: 11rpx 0;
+}
+.main .tan .tannei2 .kshow .ktwo {
+  width: 100%;
+  box-sizing: border-box;
+}
+.main .tan .tannei2 .kshow .ktwo .tclass {
+  font-size: 28rpx;
+  font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+  font-weight: 500;
+  color: #999999;
+}
+.main .tan .tannei2 .kshow .ktwo .tclass1 {
+  font-size: 28rpx;
+  font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+  font-weight: 700;
+  color: #333333;
+}
+.main .tan .tannei2 .kshow .ktwo .van-cell {
+  padding: 18rpx 0rpx;
+}
+.main .tan .tannei2 .kshow .ktwo .van-radio__label {
+  font-size: 28rpx;
+  font-family: PingFang SC Bold, PingFang SC Bold-Bold;
+  font-weight: 700;
+  color: #333333;
+  margin-left: 90rpx;
+}
+.main .tan .tannei2 .kshow .ktwo .van-radio__icon {
+  height: 40rpx !important;
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: 80rpx;
+}
+.main .tan .tannei2 .kshow .ktwo .van-radio__icon /deep/.van-icon {
+  width: 40rpx;
+  height: 40rpx;
+  border: 1rpx solid #cccccc;
+}
+.main .tan .tannei2 .kshow .ktwo .van-radio {
+  height: 70rpx;
+}
+.main .tan .tannei2 .kshow .ktwo .van-collapse-item__wrapper {
+  box-shadow: 0px 16rpx 8rpx -10rpx #cacaca;
+  margin-bottom: 10rpx;
+}
+.main .tan .tannei2 .kshow .kthree .kthreehand {
+  font-size: 28rpx;
+  font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+  font-weight: 500;
+  color: #333333;
+  margin-top: 33rpx;
+}
+.main .tan .tannei2 .kshow .kthree .kthreehand .khtxttwo {
+  font-size: 24rpx;
+  color: #666666;
+}
+.main .tan .tannei2 .kshow .kthree .kthreefoot {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 21rpx;
+}
+.main .tan .tannei2 .kshow .kthree .kthreefoot .van-cell {
+  background-color: #F0F0F0;
+  height: 236rpx;
+  border-radius: 16rpx;
+}
+.main .tan .tannei2 .kshow .kfour {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 35rpx;
+}
+.main .tan .tannei2 .kshow .kfour .kfourtxt {
+  font-size: 28rpx;
+  font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+  font-weight: 500;
+  color: #333333;
+}
+.main .tan .tannei2 .kshow .kfour .kfourtxt .kfourbud {
+  font-size: 24rpx;
+  color: #666666;
+}
+.main .tan .tannei2 .kshow .kfour .add-img-box {
+  display: flex;
+  width: 750rpx;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.main .tan .tannei2 .kshow .kfour .add-img-item {
+  width: 128rpx;
+  height: 128rpx;
+  border-radius: 16rpx;
+  position: relative;
+  padding: 9rpx 0;
+  margin-right: 20rpx;
+}
+.main .tan .tannei2 .kshow .kfour .add-img-camera {
+  flex: 1;
+}
+.main .tan .tannei2 .kshow .kfour .add-img {
+  width: 128rpx;
+  height: 128rpx;
+  border-radius: 16rpx;
+}
+.main .tan .tannei2 .kshow .kfour .add-img-del {
+  position: absolute;
+  width: 40rpx;
+  height: 40rpx;
+  right: -14rpx;
+  top: -6rpx;
+  border-radius: 20rpx;
+}
+.main .tan .tannei2 .kshow .kfour .address-time {
+  width: 484rpx;
+  height: 88rpx;
+  background-color: whitesmoke;
+  opacity: 1;
+  border-radius: 24rpx;
+  text-align: center;
+  font-size: 35rpx;
+  font-weight: 500;
+  color: #333333;
+}
+.main .tan .tannei2 .kshow .kfour .line {
+  width: 750rpx;
+  height: 1px;
+  -webkit-transform: scaleY(0.3);
+          transform: scaleY(0.3);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.main .tan .tannei2 .kshow .kbtn {
+  width: 570rpx;
+  height: 88rpx;
+  background: linear-gradient(180deg, #FFA73E 0%, #FF752B 100%);
+  border-radius: 16rpx;
+  font-size: 32rpx;
+  font-family: PingFang SC Bold, PingFang SC Bold-Bold;
+  font-weight: 700;
+  text-align: center;
+  line-height: 88rpx;
+  margin: 0 auto;
+  margin-top: 59rpx;
+  color: #ffffff;
+}
+.main .tan .tishione {
+  width: 686rpx;
+  height: 211rpx;
+  opacity: 0.7;
+  border-radius: 10rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #B5B5B5;
+  box-sizing: border-box;
+  padding: 43rpx 61rpx 42rpx 38rpx;
+}
+.main .tanshi {
+  width: 600rpx;
+  padding: 100rpx 0;
+}
+.main .tanshi .xz {
+  text-align: center;
+  padding: 0 30rpx;
+}
+.main .tanshi .xz image {
+  width: 300rpx;
+  height: 289rpx;
+}
+.main .tanshi .xz .xzone {
+  margin-top: 28rpx;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 80rpx;
+  font-size: 38rpx;
+}
+.main .tanshi .xz .xztwo {
+  margin-top: 15rpx;
+  font-weight: 600;
+  color: #4587e8;
+  font-size: 30rpx;
+}
+.main .tanshi .xz .xzthree {
+  margin-top: 30rpx;
+  font-weight: 600;
+  color: #4e4e4e;
+  font-size: 20rpx;
+  margin-bottom: 40rpx;
+}
+.main .tanshi .anniu {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 90rpx;
+  font-weight: 600;
+  font-size: 28rpx;
+  color: #333333;
+}
+.main .tanshi .anniu .anniu1 {
+  width: 130rpx;
+  height: 55rpx;
+  line-height: 55rpx;
+  border-radius: 40rpx;
+  text-align: center;
+  border: #333333 2rpx solid;
+}
+.main .xytanshi {
+  width: 600rpx;
+  padding-top: 40rpx;
+  padding-bottom: 100rpx;
+}
+.main .xytanshi .shdun {
+  width: 155rpx;
+  height: 177rpx;
+  margin: 0 auto;
+}
+.main .xytanshi .shdun image {
+  width: 155rpx;
+  height: 177rpx;
+}
+.main .xytanshi .plustore .plustoreone {
+  background: linear-gradient(180deg, #FFEAD1 0%, #FFF6EA 100%);
+  border-radius: 24rpx;
+  text-align: center;
+  font-size: 34rpx;
+  width: 484rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 700;
+  color: #111111;
+  line-height: 48rpx;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 25rpx 55rpx;
+}
+.main .xytanshi .plustore .plustoreone ._span {
+  color: #EC651C;
+}
+.main .xytanshi .plustore .plustoretwo {
+  font-size: 30rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 700;
+  color: #3A4044;
+  line-height: 42rpx;
+  text-align: center;
+  margin-top: 18rpx;
+  margin-bottom: 51rpx;
+}
+.main .xytanshi .pantap {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+}
+.main .xytanshi .pantap .pantapone {
+  width: 230rpx;
+  height: 80rpx;
+  border-radius: 24rpx;
+  border: 2rpx solid #EC651C;
+  font-size: 34rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #EC651C;
+  line-height: 80rpx;
+  text-align: center;
+}
+.main .xytanshi .pantap .pantaptwo {
+  width: 230rpx;
+  height: 80rpx;
+  background: linear-gradient(180deg, #FFA73E 0%, #FF752B 100%);
+  border-radius: 24rpx;
+  font-size: 34rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 80rpx;
+  text-align: center;
+}
+.main .occtan .van-popup {
+  border-radius: 16rpx;
+  overflow-x: hidden;
+}
+.main .occtan .occmap {
+  width: 686rpx;
+  background-color: #F8F8F8;
+  padding: 36rpx;
+  box-sizing: border-box;
+}
+.main .occtan .occmap .occfoot {
+  background: #fff;
+  border-radius: 24rpx;
+  box-sizing: border-box;
+  padding: 14rpx 24rpx;
+  margin-bottom: 20rpx;
+}
+.main .occtan .occmap .occfoot .occfootone {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 28rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #3A4044;
+  line-height: 33rpx;
+  align-items: center;
+  margin-bottom: 16rpx;
+}
+.main .occtan .occmap .occfoot .occfootone ._span {
+  font-weight: 700;
+}
+.main .occtan .occmap .occdibu {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main .occtan .occmap .occdibu .occdibuone {
+  padding: 21rpx 50rpx;
+  background: #636B82;
+  border-radius: 16rpx;
+  color: #fff;
+  text-align: center;
+}
+.main .occtan .occmap .occdibu .occdibutwo {
+  padding: 21rpx 50rpx;
+  background: linear-gradient(180deg, #FFA73E 0%, #FF752B 100%);
+  border-radius: 16rpx;
+  color: #fff;
+  text-align: center;
+}
+.main .shby .van-popup {
+  background: transparent;
+}
+.main .shby .shbymap {
+  width: 100%;
+}
+.main .shby .shbymap .shbymapone {
+  width: 614rpx;
+  height: 729rpx;
+  background: linear-gradient(180deg, #FFE7BF 0%, #FDC894 100%);
+  border-radius: 24rpx;
+  box-sizing: border-box;
+  padding: 30rpx 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main .shby .shbymap .shbymapone .shbymaponehand {
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 50rpx;
+  font-weight: bold;
+  color: #C87E26;
+  padding-top: 26rpx;
+}
+.main .shby .shbymap .shbymapone .shbymaponehandimg {
+  width: 100%;
+  height: 280rpx;
+  margin-top: 10rpx;
+}
+.main .shby .shbymap .shbymapone .shbymaponetap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .shby .shbymap .shbymapone .shbymaponetap .smapright image {
+  width: 155rpx;
+  height: 177rpx;
+}
+.main .shby .shbymap .shbymapone .shbymaponedi {
+  width: 100%;
+  height: 115rpx;
+  background: rgba(255, 255, 255, 0.48);
+  border-radius: 24rpx;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 25rpx;
+  position: relative;
+  align-items: center;
+}
+.main .shby .shbymap .shbymapone .shbymaponedi .smapdisecond {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #F96E30;
+  display: flex;
+  align-items: center;
+}
+.main .shby .shbymap .shbymapone .shbymaponedi .smapdisecond .smapdisecondtxt {
+  font-size: 18rpx;
+  font-weight: 400;
+  color: #F9652B;
+  margin-right: 15rpx;
+  text-decoration: line-through;
+}
+.main .shby .shbymap .shbymapone .shbymaponedi .smapdithired {
+  width: 148rpx;
+  height: 48rpx;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJUAAAAwBAMAAADqXSUhAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAbUExURUdwTPlKHfpcJvpgJ/lXIflSIfleJ/lvMPlnKze4Wg4AAAAFdFJOUwDjdrQxh6qXAwAAAT1JREFUSMfNlTtPwzAUhQ/UYjZDgbFIRGUMSDzG8JIYWZw5SyKPSCA5I2Jw/LO5bhrU8FALPkO/2M5VnHw6tqIEiNxeuRTOCwyouUvlZHClq5yb9aoJQeVeetchw+VyWqxlsHnbtq5L8rRRITum2hC6IEMCXeRVligmCu/AYyDRAacsVyhw7b0P1vqQcthIjiMZG+9Tu5AjVl9ttlnfx/dLCxrNT9gN+jee4RsS9pdc/+INBzSXxmXJokJWk5Bce2Vp6kXv20q5YVsg5wq7xkhhPqeM+avMRESpoep6LBvKOG/W1MsnBLleAZkhoeUDxnJJLlzwcsXdp/AU/x4PvFzAMS+XLPNsP4FRrlTus5VcydzRcgk3vFxQU55LgtHWKG88LxemRFdGdO0QXROiSxFd0ERXTnTNttRVbKkLH8N4fRMf+peTAAAAAElFTkSuQmCC);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  font-size: 20rpx;
+  font-weight: 400;
+  color: #F7FAFB;
+  position: absolute;
+  top: 0rpx;
+  right: 0rpx;
+}
+.main .shby .shbymap .shbymaptwo {
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  padding: 10rpx 0;
+  margin-top: 68rpx;
+}
+.main .shby .shbymap .shbymaptwo .shbymaptwofirst {
+  width: 612rpx;
+  height: 82rpx;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAmgAAABSBAMAAAASvzWYAAAAElBMVEVRU11hYmvy2KJfeLVOcLXQvJT4pm/HAAAABnRSTlOkqPgaDrilJo7gAAAEEUlEQVR42u2d0XLaMBBF92Ym7wszfW8g/EBwfiCG94Tg//+VriVHYBsbLCTVq3Ds4LYpBR3flZQxVmln2Fab1dw4rGbGZvNdGFtGWvm+qhYTof/LIhx0M38Om8JJ278s+NdKY5oAqh9p2408V5k0pJUG2QzP60baIfb5EeYr7bqv1nF5NNL2X37SmBiEeAce+yaFlMajG6HxZYNSGWlvXqEGTWWeUTNaRoHZHU9FLe1loa9LE9KOnUatSQpedyTVqbFLI0o6dsJaa+qTyveFQmkCEgUNLmuuPmn3pbM6iRJJ6ws8UunfpXHkDYMvESxqTGMtGRgR1iJNZ3UKqYLWtbcmleOABWGChknm5FCJNKVdGhGSDAP9n6Uq+lAbtI61dO1Y0l6xNIoVtPHoPdOH2uoU0geN5etJtzRKETS0lFlpiquTCOmC5uSxSNMcNKIAQfMpT81BI0JaZ015vumWRjGlwWztmLGRpro6/aNGdyVNd9CIEH0U6PxdiDTdQRNSBI3Pf6ldGntGjShpeRrnMylR+BYoe58jeEkjC89gc/g7w+jWw5Wn7mHAkrYNIk1xj3YiYhsY9tCSlkHQhJTnXaTlEDQipGoCjLQsgiYkO+0s0rIImoCYLeBOeWbiTEjQAjTS8ihOQ+QG4DRPyyZoNdGcMfF5n5ZP0ATEffuuPHMKWk38dy/SMnN2MW3MlEoa5NWag47idHDEfgWD0lhjh9YCDRQWtknLrDhjwa3yfDgL0qexytlGKlBLe+TsZtjN0/KY1caHz8vzkbNpn4dkFmmPnE2ALyeNHzkbLU4r7ffWJns9aUwa567srikHIXbMmOUUgLKhlkYUTxm306ttUOHT0ImONAFRlOXYScJJ63gDBQAZji1wSYtDNjM/Jlzq0/gmxTxlw2KUAEsD/Oy4cL+j2c0DzM4Dnwm69iLk3HC3PMex/3KA0kxYopAvNg+jiWCPmVy88szk0tYAsNJAQUEuFwQ72HodT5qvzYwuoxq4X54fzR9zXxTIB+R08XngwsrejjB9T55tyuSDW8MVh/p+T6aQIJePuw2Yg+xL2n9OfMr4vphEsNbATct4bHrKp7c6Ae4krrLS0MogQ/aBpwS+5cY00+8BHSHX3iZ3fV5/DRgVPQ8VlX+bcSAEyu/ou7He1rW0YED3Dbe3FSqLtN1XOGdaVy2aBo5Uvtn+EwGKU+n6WDfDblWr98/ON/yDlr0146cyK/X1hiF/ZzkXKDezlVezJqSLF+4szpyjhvaakPvP9k+f7Bu0TKOGkxS41Ud3hzBByzhqTI7l0UorN0R8/3Qj26j9gPMVlcv9S4Dpxi+wRoRNaaUJ9SrxD67SWiW+LMqqWs2N+f1/BNX3bmulGQr5XVEU2wdDiB3JlrX1D04bcw614T5jAAAAAElFTkSuQmCC);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 0 26rpx;
+  display: flex;
+  align-items: center;
+  font-size: 29rpx;
+  font-family: Source Han Sans CN-Bold, Source Han Sans CN;
+  font-weight: bold;
+  color: #F7DDB5;
+  box-sizing: border-box;
+}
+.main .shby .shbymap .shbymaptwo .shbymaptwosecond {
+  width: 214rpx;
+  height: 101rpx;
+  background-image: url(data:image/png;base64,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);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  font-size: 36rpx;
+  font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+  font-weight: 400;
+  color: #4F3832;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 0rpx;
+  top: 0rpx;
+}
+.main .shby .shbymap .shbymapthree {
+  width: 100%;
+  text-align: center;
+  margin-top: 57rpx;
+}
+.main .shby .shbymap .shbymapthree image {
+  width: 57rpx;
+  height: 57rpx;
+}
+.main .wxts .van-popup {
+  background: transparent;
+}
+.main .wxts .wxtsmap {
+  width: 544rpx;
+  background: #FFFFFF;
+  border-radius: 24rpx;
+  padding-top: 37rpx;
+  padding-bottom: 22rpx;
+}
+.main .wxts .wxtsmap .wxtsmapone {
+  width: 100%;
+  text-align: center;
+  font-size: 34rpx;
+  font-family: Yu Gothic UI-Regular, Yu Gothic UI;
+  font-weight: 400;
+  color: #111111;
+}
+.main .wxts .wxtsmap .wxtsmaptwo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40rpx;
+}
+.main .wxts .wxtsmap .wxtsmaptwo ._span {
+  font-size: 24rpx;
+}
+.main .wxts .wxtsmap .wxtsmapthree {
+  width: 100%;
+  text-align: center;
+  font-size: 24rpx;
+  font-family: Microsoft JhengHei UI-Regular, Microsoft JhengHei UI;
+  font-weight: 400;
+  color: #3A4044;
+  margin-top: 27rpx;
+}
+.main .wxts .wxtsmap .wxtsmapfour {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 34rpx;
+  margin-top: 55rpx;
+}
+.main .cmdibu .van-popup {
+  border-radius: 20rpx 20rpx 0 0;
+}
+

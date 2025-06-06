@@ -1,0 +1,309 @@
+
+page {
+	height: 100%;
+	background-image: linear-gradient(#472E23 2%, #242225 28%, #242225 70%);
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.main.data-v-0be8c266 {
+  width: 100%;
+  overflow-x: hidden;
+}
+.main .foothand.data-v-0be8c266 {
+  width: 90%;
+  background: linear-gradient(180deg, #FFA73E 0%, #FF752B 100%);
+  border-radius: 24rpx;
+  padding: 10rpx 24rpx;
+  margin: 0 auto;
+  box-sizing: border-box;
+  margin-top: 30rpx;
+  color: #fff;
+}
+.main .gztan.data-v-0be8c266 {
+  width: 650rpx;
+  background-color: #FFFFFF;
+  text-align: center;
+  padding: 70rpx 0;
+}
+.main .gztan .gztanimg.data-v-0be8c266 {
+  width: 350rpx;
+  height: 350rpx;
+  margin: 0 auto;
+}
+.main .gztan .gztanimg ._img.data-v-0be8c266 {
+  width: 350rpx;
+  height: 350rpx;
+}
+.main .gztan .gztantxt.data-v-0be8c266 {
+  margin-top: 30rpx;
+  font-size: 20rpx;
+}
+.main .one.data-v-0be8c266 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 63rpx;
+  box-sizing: border-box;
+  margin-top: 34rpx;
+  margin-bottom: 30rpx;
+}
+.main .one image.data-v-0be8c266 {
+  width: 213rpx;
+  height: 64rpx;
+}
+.main .one .oneright.data-v-0be8c266 {
+  font-size: 26rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #FFDFCE;
+  display: flex;
+  align-items: center;
+}
+.main .one .oneright image.data-v-0be8c266 {
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 8rpx;
+}
+.main .one1.data-v-0be8c266 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 63rpx;
+  box-sizing: border-box;
+  margin-top: 34rpx;
+  margin-bottom: 10rpx;
+}
+.main .one1 image.data-v-0be8c266 {
+  width: 160rpx;
+  height: 160rpx;
+}
+.main .one1 .oneright.data-v-0be8c266 {
+  font-size: 26rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #FFDFCE;
+  display: flex;
+  align-items: center;
+}
+.main .one1 .oneright image.data-v-0be8c266 {
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 8rpx;
+}
+.main .two.data-v-0be8c266 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 50rpx;
+  box-sizing: border-box;
+}
+.main .two .twoleft.data-v-0be8c266 {
+  width: 320rpx;
+  height: 320rpx;
+  background: linear-gradient(180deg, #FFA73E 0%, #FF752B 100%);
+  border-radius: 36rpx;
+  text-align: center;
+}
+.main .two .twoleft image.data-v-0be8c266 {
+  width: 95rpx;
+  height: 96rpx;
+  margin-top: 80rpx;
+  margin-bottom: 21rpx;
+}
+.main .two .twoleft .twolefttxt.data-v-0be8c266 {
+  font-size: 34rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+.main .two .tworight.data-v-0be8c266 {
+  box-sizing: border-box;
+  width: 280rpx;
+  height: 320rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main .two .tworight .tworightshang.data-v-0be8c266 {
+  background-color: #FFE1A9;
+  width: 280rpx;
+  height: 130rpx;
+  border-radius: 36rpx;
+  padding: 42rpx 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding-left: 40rpx;
+}
+.main .two .tworight .tworightshang image.data-v-0be8c266 {
+  width: 58rpx;
+  height: 46rpx;
+  margin-right: 26rpx;
+}
+.main .two .tworight .tworightshang .tworightshangtxt.data-v-0be8c266 {
+  font-size: 26rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #242225;
+}
+.main .two .tworight .tworightxia.data-v-0be8c266 {
+  width: 280rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.main .two .tworight .tworightxia .trxl.data-v-0be8c266 {
+  font-size: 26rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #AC9B93;
+  text-align: center;
+}
+.main .two .tworight .tworightxia .trxl .trxls.data-v-0be8c266 {
+  width: 120rpx;
+  height: 120rpx;
+  background: #FFDFCE;
+  border-radius: 24rpx;
+  box-sizing: border-box;
+  padding: 33rpx;
+}
+.main .two .tworight .tworightxia .trxl .trxls image.data-v-0be8c266 {
+  width: 54rpx;
+  height: 54rpx;
+}
+.main .lun.data-v-0be8c266 {
+  width: 100%;
+  padding: 0 50rpx;
+  box-sizing: border-box;
+  margin-top: 40rpx;
+}
+.main .tap.data-v-0be8c266 {
+  width: 649rpx;
+  height: 300rpx;
+  border-radius: 16rpx;
+  margin: 0 auto;
+  padding-bottom: 150rpx;
+}
+.main .tap image.data-v-0be8c266 {
+  width: 649rpx;
+  height: 300rpx;
+  border-radius: 16rpx;
+}
+.main .kant.data-v-0be8c266 {
+  margin: 40rpx 0;
+}
+.main .kant .saoma.data-v-0be8c266 {
+  width: 650rpx;
+  height: 130rpx;
+  margin: 0 auto;
+  background: linear-gradient(180deg, #FFA73E 0%, #FF752B 100%);
+  border-radius: 36rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main .kant .saoma image.data-v-0be8c266 {
+  width: 75rpx;
+  height: 63rpx;
+  margin-right: 36rpx;
+}
+.main .kant .saoma .smtxt.data-v-0be8c266 {
+  font-size: 34rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+.main .kant .smtxt1.data-v-0be8c266 {
+  width: 138rpx;
+  font-size: 30rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 700;
+  color: #A6A3A2;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 10rpx;
+  margin-top: 26rpx;
+}
+.main .tan.data-v-0be8c266 {
+  width: 600rpx;
+  padding-top: 100rpx;
+}
+.main .tan .xz.data-v-0be8c266 {
+  text-align: center;
+  padding: 0 30rpx;
+}
+.main .tan .xz image.data-v-0be8c266 {
+  width: 300rpx;
+  height: 289rpx;
+}
+.main .tan .xz .xzone.data-v-0be8c266 {
+  margin-top: 28rpx;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 80rpx;
+  font-size: 38rpx;
+}
+.main .tan .xz .xztwo.data-v-0be8c266 {
+  margin-top: 15rpx;
+  font-weight: 600;
+  color: #EC651C;
+  font-size: 30rpx;
+}
+.main .tan .xz .xzthree.data-v-0be8c266 {
+  margin-top: 30rpx;
+  font-weight: 600;
+  color: #4e4e4e;
+  font-size: 20rpx;
+  margin-bottom: 40rpx;
+}
+.main .tan .anniu.data-v-0be8c266 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 34rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #3A4044;
+  text-align: center;
+  padding: 36rpx 0;
+}
+.main .tan .anniu .anniu1.data-v-0be8c266 {
+  width: 50%;
+  height: 55rpx;
+  line-height: 55rpx;
+  border-right: 1rpx solid #eeeeee;
+}
+.main .tan .anniu .anniu2.data-v-0be8c266 {
+  width: 50%;
+  height: 55rpx;
+  line-height: 55rpx;
+  color: #EC651C;
+}
+

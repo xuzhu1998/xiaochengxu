@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "扫码充电",
+  "usingComponents": {
+    "tab-bar": "/components/tabBar/tabBar"
+  }
+}
