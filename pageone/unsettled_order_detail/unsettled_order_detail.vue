@@ -274,65 +274,55 @@
 							let arr = res.data.data
 							let _this = this
 				
-							function onBridgeReady() {
-								WeixinJSBridge.invoke(
-									'getBrandWCPayRequest', {
-										"appId": arr.appId, //公众号名称，由商户传入
-										"timeStamp": arr.timeStamp, //时间戳，自1970年以来的秒数     
-										"nonceStr": arr.nonceStr, //随机串     
-										"package": arr.wpackage,
-										"signType": arr.signType, //微信签名方式：     
-										"paySign": arr.paySign //微信签名 
-									},
-									function(res) {
-										if (res.err_msg == "get_brand_wcpay_request:ok") {
-											uni.showLoading({
-												title: '请稍候',
-												mask: true
-											})
-											let timer = 7
-											let auth_timer = setInterval(() => { //定时器设置每秒递减
-												timer--; //递减时间
-												if (timer <= 0) {
-													clearInterval(auth_timer)
-													uni.hideLoading()
-													Dialog.alert({
-													  message: '因网络原因,若柜门未打开,请前往消费列表查看开柜密码,使用密码打开',
-													}).then(() => {
-													  uni.navigateBack()
-													});
-													
-												}else{
-													_this.$base.request('charging' + '/' + _this.id, 'GET')
-														.then(res => {
-															if(res.data.data.isSettlement==1){
-																clearInterval(auth_timer)
-																uni.hideLoading()
-																_this.pwdbtn()
-															}
-														})
-														.catch(err => {
-													
-														})
-												}
-											}, 1000)
-											
-										
-											// 使用以上方式判断前端返回,微信团队郑重提示：
-											//res.err_msg将在用户支付成功后返回ok，但并不保证它绝对可靠。
+							// 小程序中使用wx.requestPayment，但传入公众号的支付参数
+							wx.requestPayment({
+								timeStamp: arr.timeStamp,
+								nonceStr: arr.nonceStr,
+								package: arr.wpackage,
+								signType: arr.signType,
+								paySign: arr.paySign,
+								success: function (res) {
+									console.log('补差价支付成功:', res);
+									uni.showLoading({
+										title: '请稍候',
+										mask: true
+									})
+									let timer = 7
+									let auth_timer = setInterval(() => { //定时器设置每秒递减
+										timer--; //递减时间
+										if (timer <= 0) {
+											clearInterval(auth_timer)
+											uni.hideLoading()
+											Dialog.alert({
+											  message: '因网络原因,若柜门未打开,请前往消费列表查看开柜密码,使用密码打开',
+											}).then(() => {
+											  uni.navigateBack()
+											});
+
+										}else{
+											_this.$base.request('charging' + '/' + _this.id, 'GET')
+												.then(res => {
+													if(res.data.data.isSettlement==1){
+														clearInterval(auth_timer)
+														uni.hideLoading()
+														_this.pwdbtn()
+													}
+												})
+												.catch(err => {
+
+												})
 										}
-									});
-							}
-							if (typeof WeixinJSBridge == "undefined") {
-								if (document.addEventListener) {
-									document.addEventListener('WeixinJSBridgeReady', onBridgeReady, false);
-								} else if (document.attachEvent) {
-									document.attachEvent('WeixinJSBridgeReady', onBridgeReady);
-									document.attachEvent('onWeixinJSBridgeReady', onBridgeReady);
+									}, 1000)
+								},
+								fail: function (err) {
+									console.log('补差价支付失败:', err);
+									if (err.errMsg === 'requestPayment:fail cancel') {
+										Toast.fail('支付已取消')
+									} else {
+										Toast.fail('支付失败: ' + err.errMsg)
+									}
 								}
-							} else {
-								onBridgeReady();
-							}
+							});
 						} else {
 							Toast.fail(res.data.msg)
 						}

@@ -139,18 +139,23 @@ class Base {
 		this.handleLoginRequired();
 	}
 
-	// wx微信支付
+	// wx微信支付 - 统一使用wx.requestPayment
 	wxPay(data) {
 		return new Promise((resolve, reject) => {
-			WeixinJSBridge.invoke('getBrandWCPayRequest', {
-				"paySign": data.paySign,
-				"appId": data.appId,
-				"nonceStr": data.nonceStr,
-				"package": data.wpackage,
-				"signType": data.signType,
-				"timeStamp": data.timeStamp
-			}, (res) => {
-				resolve(res)
+			wx.requestPayment({
+				timeStamp: data.timeStamp,
+				nonceStr: data.nonceStr,
+				package: data.wpackage,
+				signType: data.signType,
+				paySign: data.paySign,
+				success: function (res) {
+					console.log('支付成功:', res);
+					resolve(res)
+				},
+				fail: function (err) {
+					console.log('支付失败:', err);
+					reject(err)
+				}
 			});
 		})
 	}

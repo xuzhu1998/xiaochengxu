@@ -2175,16 +2175,16 @@
 						if (res.data.code == 200) {
 							let arr = res.data.data
 
-							// 使用uni-app标准支付API
-							uni.requestPayment({
-								provider: 'wxpay', // 服务提供商
-								timeStamp: arr.timeStamp, // 时间戳
-								nonceStr: arr.nonceStr, // 随机字符串
+							// 小程序中使用wx.requestPayment，但传入公众号的支付参数
+							// 注意：这里不使用uni.requestPayment，直接使用wx.requestPayment
+							wx.requestPayment({
+								timeStamp: arr.timeStamp,
+								nonceStr: arr.nonceStr,
 								package: arr.wpackage,
-								signType: arr.signType, // 签名算法
-								paySign: arr.paySign, // 签名
+								signType: arr.signType,
+								paySign: arr.paySign,
 								success: function (res) {
-									console.log('临时充电支付成功', res);
+									console.log('临时充电支付成功:', res);
 									// 支付成功后设置定时器等待充电结果
 									_this.timeId = setTimeout(() => { //20秒之后没推过来关闭 弹窗
 										uni.hideLoading()
@@ -2197,9 +2197,13 @@
 									}, 20000);
 								},
 								fail: function (err) {
-									console.log('临时充电支付失败', err);
+									console.log('临时充电支付失败:', err);
+									if (err.errMsg === 'requestPayment:fail cancel') {
+										Toast.fail('支付已取消')
+									} else {
+										Toast.fail('支付失败: ' + err.errMsg)
+									}
 									uni.hideLoading()
-									Toast.fail('支付失败，请重试')
 								}
 							});
 						} else {
